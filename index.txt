@@ -1,0 +1,1921 @@
+html:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>廢食不可</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <!-- <link rel="stylesheet" href="./js/indsex.js"> -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <script>
+   function showAns(){
+     window.alert("尚未上架,敬請期待")
+   }
+  </script>
+  
+  <script src="./js/wow.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header_flex">
+
+    <div class="logo">
+       <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+    </div>
+    <ul class="menu">
+        <li>
+            <div class="explore"> 探索廢食不可</div>
+            <ul class="explore_list">
+                <li><a href="#">待救美食</a></li>
+                <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                <li><a href="#">大廚交流</a></li>
+            </ul>
+
+        </li>
+        <li> <a href="./supply.html">提供餐點</a></li>
+        <li> <a href="./openkitchen.html">開設廚房</a></li>
+        <li><a href="#"> 登入</a></li>
+    </ul>
+    <nav class="nav">
+    <ul class="menu_hide" id="menu_hide">
+        <li>
+            <div class="explore_hide facebook" id="explore_hide"> 探索廢食不可 ?</div>
+            <ul class="explore_list_hide" id="explore_list_hide">
+                <li><a href="#">待救美食</a></li>
+                <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                <li><a href="#">大廚交流</a></li>
+            </ul>
+        </li>
+        <li > <a href="./supply.html" class="facebook">提供餐點</a></li>
+        <li> <a href="./openkitchen.html" class="facebook">開設廚房</a></li>
+        <li>
+                <div class="explore_hide facebook" id="explore_hide_one"> 關於我們 ?</div>
+                <ul class="explore_list_hide explore_one" id="explore_one">
+                    <li><a href="#">創業理念</a></li>
+                    <li><a href="./vision.html">團隊簡介</a></li>
+                    <li><a href="#">常見問題</a></li>
+                </ul>
+            </li>
+            <li>
+                    <div class="explore_hide facebook" id="explore_hide_two"> 會員專區 ?</div>
+                    <ul class="explore_list_hide explore_two" id="explore_two">
+                        <li><a href="./customer.html">食光隧道</a></li>
+                    </ul>
+                </li>
+        <li><a href="#" class="facebook"> 登入</a></li>
+    </ul>
+</nav>
+    <div class="hamburger_icom">
+    <button class="hamburger hamburger--spring btn_switch" type="button" id="hamburger">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+</div>
+</header>
+  <!-- <div class="block"></div> -->
+
+
+  <div class="big_background">
+    <div class="mid_background">
+      <section class="background">
+        <div class="search">
+          <h2 class="action">搶救美食即刻行動</h2>
+          <div class="list">
+            <div class="city">城市</div>
+            <select name="city" class="city1" placeholder="縣市">
+              <option value="">台北市</option>
+              <option value="">新北市</option>
+              <option value="">桃園市</option>
+              <option value="">高雄市</option>
+            </select>
+            <br>
+            <div class="city">地點</div>
+            <input type="text" name="section" class="position" placeholder=" 輸入車站"><br><br>
+
+            <button type="button" class="find" onClick="showAns()">尋找美食</button>
+          </div>
+        </div>
+        <!-- <div class="welcome">Welcome to Reeat</div> -->
+        <div class="sense">
+          <div>剩食? 盛食!</div>
+          <div>讓一天的結束帶點屬於你的sense?</div>
+        </div>
+        <div class="black"></div>
+      </section>
+      <section>
+          <div class="search_hide">
+              <h2 class="action">搶救美食即刻行動</h2>
+              <div class="list">
+                <div class="city">城市</div>
+                <select name="city" class="city1" placeholder="縣市">
+                  <option value="">台北市</option>
+                  <option value="">新北市</option>
+                  <option value="">桃園市</option>
+                  <option value="">高雄市</option>
+                </select>
+                <br>
+                <div class="city">地點</div>
+                <input type="text" name="section" class="position" placeholder=" 輸入車站"><br><br>
+    
+               <div class="inputholder"><button type="button" class="find1" onClick="showAns()">尋找美食</button></div> 
+              </div>
+            </div>
+      </section>
+      <section  class="rescue_me">
+          <h2 class="rescue">待救美食</h2>
+         <div  class="contani_city">
+          <select name="city" class="city2" placeholder="縣市">
+              <option value="">台北市</option>
+              <option value="">新北市</option>
+              <option value="">桃園市</option>
+              <option value="">高雄市</option>
+            </select>
+          </div>
+    <div class="resce">
+        <div class="aside_background">
+        </div>
+      
+        <div class="tab_container">
+
+            <div class="tab_list_block">
+                <ul class="tab_list">
+                  <li><a href="#" data-target="tab1" class="tab -on"></a><p class="taipei_city">台北市</p></li>
+                  <li><a href="#" data-target="tab2" class="tab">新北市</a></li>
+                  <li><a href="#" data-target="tab3" class="tab">桃園市</a></li>
+                  <li><a href="#" data-target="tab4" class="tab">高雄市</a></li>
+                </ul>
+                
+                <div class="bottom_line"></div>
+              </div>
+          <div class="tab_contents">
+            <span class="progress"><span class="progress_contant"></span></span>
+            <div class="tab tab1 -on ">
+             
+              <div class=" flex_two">
+                
+              <dl class="first_block f_one wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s "><a href="./dishes.html">
+                  <div class="pic_item">
+                    <img src="./img/20190415084351_92.jpg" alt="">
+                  </div>
+                  
+                    <dt>絲白德鰻</dt>
+                    <dd>
+                    <p>日式料亭</p>
+                    <p>距離台北車站步行5分鐘</p>
+                    <p>取餐時段 : 11:50~16:00</p>
+                    <p>價格 : $180</p>
+                  </dd>
+                </a>
+              </dl>
+              <dl class="first_block f_two wow fadeInLeft" ata-wow-duration="1s" data-wow-delay="0.8s "><a href="./dishes.html">
+                  <div class="pic_item">
+                    <img src="./img/281848-1.jpg" alt="">
+                  </div>
+                
+                    <dt>歹就補</dt>
+                    <dd>
+                    <p>藥膳</p>
+                    <p>距離台北車站步行5分鐘</p>
+                    <p>取餐時段 : 11:50~16:00</p>
+                    <p>價格 : $70</p>
+                  </dd>
+                </a>
+              </dl>
+              <dl class="first_block f_three wow fadeInLeft" ata-wow-duration="1s" data-wow-delay="1s ">
+                <a href="./dishes.html">
+                  <div class="pic_item">
+                    <img src="./img/48102878527_a2e39f1027_h.jpg" alt="">
+                  </div>
+          
+                    <dt>奧維斯樂芙</dt>
+                    <dd>
+                    <p>西式甜點</p>
+                    <p>距離大安站步行7分鐘</p>
+                    <p>取餐時段 : 11:50~16:00</p>
+                    <p>價格 : $50</p>
+                  </dd>
+                </a>
+              </dl>
+              <dl class="first_block f_four wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s "><a href="./dishes.html">
+                <div class="pic_item">
+                  <img src="./img/20190415084351_92.jpg" alt="">
+                </div>
+                
+                  <dt>絲白德鰻</dt>
+                  <dd>
+                  <p>日式料亭</p>
+                  <p>距離台北車站步行5分鐘</p>
+                  <p>取餐時段 : 11:50~16:00</p>
+                  <p>價格 : $180</p>
+                </dd>
+              </a>
+            </dl>
+            </div>
+            </div>
+            <div class="tab tab2">
+                 <div  class=" flex_two">
+                <dl class="first_block wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s "><a href="./dishes.html">
+                  <div class="pic_item">
+                    <img src="./img/20190415084351_92.jpg" alt="">
+                  </div>
+                  
+                    <dt>絲白德鰻</dt>
+                    <dd>
+                    <p>日式料亭</p>
+                    <p>距離台北車站步行5分鐘</p>
+                    <p>取餐時段 : 11:50~16:00</p>
+                    <p>價格 : $180</p>
+                  </dd>
+                </a>
+              </dl>
+              <dl class="first_block wow fadeInLeft" ata-wow-duration="0.5s" data-wow-delay="0.8s "><a href="./dishes.html">
+                  <div class="pic_item">
+                    <img src="./img/281848-1.jpg" alt="">
+                  </div>
+                
+                    <dt>歹就補</dt>
+                    <dd>
+                    <p>藥膳</p>
+                    <p>距離台北車站步行5分鐘</p>
+                    <p>取餐時段 : 11:50~16:00</p>
+                    <p>價格 : $70</p>
+                  </dd>
+                </a>
+              </dl>
+              <dl class="first_block wow fadeInLeft" ata-wow-duration="1s" data-wow-delay="1s ">
+                <a href="./dishes.html">
+                  <div class="pic_item">
+                    <img src="./img/48102878527_a2e39f1027_h.jpg" alt="">
+                  </div>
+          
+                    <dt>奧維斯樂芙</dt>
+                    <dd>
+                    <p>西式甜點</p>
+                    <p>距離大安站步行7分鐘</p>
+                    <p>取餐時段 : 11:50~16:00</p>
+                    <p>價格 : $50</p>
+                  </dd>
+                </a>
+              </dl>
+            </div>
+            </div>
+            <div class="tab tab3">
+                <div  class=" flex_two">
+                    <dl class="first_block wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s "><a href="./dishes.html">
+                      <div class="pic_item">
+                        <img src="./img/20190415084351_92.jpg" alt="">
+                      </div>
+                      
+                        <dt>絲白德鰻</dt>
+                        <dd>
+                        <p>日式料亭</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $180</p>
+                      </dd>
+                    </a>
+                  </dl>
+                  <dl class="first_block wow fadeInLeft" ata-wow-duration="0.5s" data-wow-delay="0.8s "><a href="./dishes.html">
+                      <div class="pic_item">
+                        <img src="./img/281848-1.jpg" alt="">
+                      </div>
+                    
+                        <dt>歹就補</dt>
+                        <dd>
+                        <p>藥膳</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $70</p>
+                      </dd>
+                    </a>
+                  </dl>
+                  <dl class="first_block wow fadeInLeft" ata-wow-duration="1s" data-wow-delay="1s ">
+                    <a href="./dishes.html">
+                      <div class="pic_item">
+                        <img src="./img/48102878527_a2e39f1027_h.jpg" alt="">
+                      </div>
+              
+                        <dt>奧維斯樂芙</dt>
+                        <dd>
+                        <p>西式甜點</p>
+                        <p>距離大安站步行7分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $50</p>
+                      </dd>
+                    </a>
+                  </dl>
+                </div>
+            </div>
+            <div class="tab tab4">
+                <div  class=" flex_two">
+                    <dl class="first_block wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s "><a href="./dishes.html">
+                      <div class="pic_item">
+                        <img src="./img/20190415084351_92.jpg" alt="">
+                      </div>
+                      
+                        <dt>絲白德鰻</dt>
+                        <dd>
+                        <p>日式料亭</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $180</p>
+                      </dd>
+                    </a>
+                  </dl>
+                  <dl class="first_block wow fadeInLeft" ata-wow-duration="0.5s" data-wow-delay="0.8s "><a href="./dishes.html">
+                      <div class="pic_item">
+                        <img src="./img/281848-1.jpg" alt="">
+                      </div>
+                    
+                        <dt>歹就補</dt>
+                        <dd>
+                        <p>藥膳</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $70</p>
+                      </dd>
+                    </a>
+                  </dl>
+                  <dl class="first_block wow fadeInLeft" ata-wow-duration="1s" data-wow-delay="1s ">
+                    <a href="./dishes.html">
+                      <div class="pic_item">
+                        <img src="./img/48102878527_a2e39f1027_h.jpg" alt="">
+                      </div>
+              
+                        <dt>奧維斯樂芙</dt>
+                        <dd>
+                        <p>西式甜點</p>
+                        <p>距離大安站步行7分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $50</p>
+                      </dd>
+                    </a>
+                  </dl>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+       <a href="" class="moremore"><p class="more">顯示更多餐點</p></a> 
+      </section>
+      
+      <section class="home_rest">
+        <div class="t_block"><img src="./img/agni.jpg" alt=""></div>
+         <div class="bright_one"><img src="./img/weare.PNG" alt=""></div>
+         <h2 class="circle_block">家庭餐廳</h2> 
+         <p>對一成不變的日常感到乏味了嗎?不妨來點非日常的日常體驗吧!</p>
+          <button type="submit" class="go"><a href="/home_restaurant.html" class="gogo"> GO</a></button>
+        </section>
+          <section class="cook">
+          <div class="ttwo_block"><img src="./img/joys-kitchen-62.jpg" alt=""></div>
+          <h2 class="circletwo_block">大廚交流</h2>
+          <p>獨樂樂不如眾樂樂，和你分享的快樂勝過獨自擁有，一起共享這份感動吧!</p>
+          <div class="bright_two"><img src="./img/news109566.jpg" alt=""></div>
+          <button type="submit" class="run">GO</button>
+        </section>
+        <!-- <section class="taiwan"> 
+          <h2 class="turrnel">食光隧道</h2>
+         <img src="./img/taiwan.png" alt="">
+         <p class="time">又回到最初的起點,記憶中你青澀的臉，我們終於來到這一<br>天。
+桌墊下的照片，無數回憶的連結。時光流轉,還記得<br>當時老闆娘的倩影、老闆熱情的招呼、或是令人眼睛為之<br>一亮的美食嗎?快來時光隧道刻下屬於你的足跡吧!</p>
+           <p class="no">廢食不可</p>
+        </section>
+        <section class="mode">
+        <h2 class="exite">運作結構</h2>
+        <img src="./img/shop.png" alt="">
+        <img src="./img/logo.png" alt="">
+        <img src="./img/ppeople.png" alt="">
+         <p class="earn">額外收入</p>
+         <p class="one_menu">豐盛一餐</p>
+         <p class="brige">廢食不可扮演店家和消費者間的橋樑，<br> 讓每分食物都能找到歸宿。</p>
+         <p class="insist">每一份餐點，<br>都包含老闆的用心與堅持。</p>
+        </section> -->
+    </div>
+  </div>
+  <footer>
+    <div class="footer_color">
+           <!-- <img src="./img/logocop.png" alt=""> -->
+           <!-- <p><span class="about">關於我們</span><span class="user">會員專區</span></p> -->
+            
+         <div class="flex_move">
+            <div class="flex_move_one"><span><i> 廢食不可</i></span><br><span> 總公司  〒22777 桃園市中壢區資策會</span><br><span> TEL：072-480-0831</span></div>
+            <div class="flex_move_two"><span> <i> 關於我們</i></span><br><span class="aaa"><a href="vision.html" class="make"> 創業理念</a></span><br><span class="bbb">團隊簡介</span><br><span class="ccc">常見問題</span></div>
+           <!-- <p>運作模式<br><a href="vision.html" class="make"> 創業理念</a><br>團隊簡介<br>常見問題</p> -->
+              <div class="flex_move_three"><span><i> 會員專區</i></span><br> <span class="eatturnel"><a href="./customer.html" class="eat_turrnel">食光隧道</a></span></div>
+              <div class="flex_move_four"> <div class="item_picture">
+                <a href="https://www.facebook.com/AirbnbTaiwan" target="_blank" rel="noopener noreferrer" class="_1rp5252" aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img" aria-label="瀏覽Facebook" focusable="false" style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);"><path d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78" fill-rule="evenodd"></path></svg></a>
+                <a  href="https://twitter.com/airbnb_tw" target="_blank" rel="noopener noreferrer" class="_1rp52521" aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img" aria-label="瀏覽Twitter" focusable="false" style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);"><path d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16" fill-rule="evenodd"></path></svg></a> 
+               <a href="https://instagram.com/airbnb" target="_blank" rel="noopener noreferrer" class="_1rp5252" aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 24 24" role="img" aria-label="瀏覽Instagram" focusable="false" style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);"><path d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z" fill-rule="evenodd"></path></svg></a> 
+            </div>
+                <span >相關條款</span><br>
+                <span>隱私</span><br>
+                <span >網站地圖</span>
+            </div>
+             
+
+        </div>
+      
+        <div class="copy">Copyright c ReEat Inc.All Rights Reserved.</div>
+    </div>  
+   
+</footer>
+
+
+
+
+
+<script>
+  var wow = new WOW({
+      boxClass: 'wow', // 要套用WOW.js縮需要的動畫class(預設是wow)
+      animateClass: 'animated', // 要"動起來"的動畫(預設是animated, 因此如果你有其他動畫library要使用也可以在這裡調整)
+      offset: 0, // 距離顯示多遠開始顯示動畫 (預設是0, 因此捲動到顯示時才出現動畫)
+      mobile: true, // 手機上是否要套用動畫 (預設是true)
+      live: true, // 非同步產生的內容是否也要套用 (預設是true, 非常適合搭配SPA)
+      callback: function (box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+          // 當每個要開始時, 呼叫這裡面的內容, 參數是要開始進行動畫特效的element DOM
+      },
+
+  });
+  wow.init();
+
+</script>
+<script>
+$(function(){
+  $("a.tab").on("click", function(e){
+    e.preventDefault();
+    
+    /* 將頁籤列表移除所有 -on，再將指定的加上 -on */
+    $(this).closest("ul").find("a.tab").removeClass("-on");
+    $(this).addClass("-on");
+    
+    /* 找到對應的頁籤內容，加上 -on 來顯示 */
+    $("div.tab").removeClass("-on");
+    $("div.tab." + $(this).attr("data-target")).addClass("-on");
+  });
+});
+</script>
+</body>
+
+</html>
+
+
+css:
+@import "./common/realheaderandfooter.css";
+@import "./common/wow.css";
+h2{
+    font-size: 30px;
+}
+.search {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 20px;
+    width: 280px;
+    height: 330px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 5px;
+}
+.city {
+    line-height: 30px;
+    font-size: 16px;
+    padding: 10px 186px 0 0;   
+}
+.city1 {
+    padding: 1px 10px;
+    height: 39px;
+    border-radius: .25rem;
+    border: 1px dotted;
+    font-size: 18px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    outline: none;
+    background: none;
+    width: 225px;
+    background-image: url('../img/arrow-2.png');
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: right 8px center;
+    cursor: pointer;
+}
+
+h2.action {
+    font-size: 28px;
+
+}
+
+.list {
+    position: relative;
+    top: -20px;
+   
+}
+
+input.position {
+    border: 1px dotted;
+    width: 225px;
+    padding: 7px 0;
+    border: 1px dotted;
+    font-size: 18px;
+    border-radius: .25rem;
+}
+
+.find {
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: .375rem 20px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-family: "微軟正黑體";
+    position: relative;
+    left: 44px;
+    transition: all 0.8s;
+}
+.find:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+section.background {
+    height: 78vh;
+    background-image: url('../img/Asia 49-.jpg');
+    background-size: cover;
+    background-position: center;
+}
+section.background{
+    position: relative;
+    width: 100%;
+    /* background: linear-gradient(to top,black 0%, 70%);  */
+}
+section.background .sense{
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+    position: absolute;
+    /* left: 1000px; */
+    right: 6%;
+    font-weight: bold;
+    /* top: 550px; */
+    bottom: 3%;
+    z-index: 10;
+}
+section.background .search{
+    position: relative;
+    top: 16vh;
+    right: -14%;
+}
+.black{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 100%;
+     bottom: 0;
+     height: 30%;
+     background: black;
+     /* opacity:0.15; */
+     background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));
+}
+@media screen and (min-width:768px){
+    .search_hide{
+        display: none;
+    }.search{
+        display: block;
+    }
+}
+@media screen and (max-width:767px){
+    .background{
+        height: 30vh !important;
+    }
+    .search{
+        display: none;
+    }
+    .search_hide{
+        display: block;
+        box-shadow: none;
+    }.city1,input.position{
+        min-width: 100%;
+        margin: 0 auto;
+       padding: 0px auto;
+        height: 34px;
+    }.city1{
+        /* padding: 7px 0px; */
+        height: 50px;
+    }
+    .action{
+        text-align: center;
+    }.inputholder{
+        width: 100%;
+        text-align: center;
+    }
+    .find1{
+        padding: 14px;
+        min-width: 100%;
+       /* text-align: center; */
+       background-color: rgb(248, 74, 74);
+       border: 1px solid white;
+       color: white;
+       cursor: pointer;
+       border-radius: .25rem;
+       font-size: 18px;
+       font-family: "微軟正黑體";
+       font-weight: 600;
+    }
+}
+
+h2.rescue{
+    text-align: center;
+}
+.aside_background{
+  width: 30%;
+  padding-bottom: 30%;
+  background-image:url('../img/photo.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+  /* border: 1px solid red; */
+}
+
+/* .flex_two{
+    display: flex;
+    border: 1px solid red;
+} */
+/* .tab_contents .first_block{
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+.tab_contents .first_block a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.8s;
+}
+.pic_item{
+    font-size: 0;
+    width:301px;
+    height: 151px;
+}
+.pic_item img{
+    width: 100%;
+    height: 100%;
+}
+.first_block .bottom_block::after{
+    content:"";
+    height:10px;
+    width: 100%;
+    background-color: black;
+    display: block;
+
+    position: absolute; 
+    bottom: 0;
+}
+.first_block p{
+    line-height: 1;
+    position: relative;
+    left: 22px;
+}
+.first_block p:nth-child(2){
+    font-size: 14px;
+    opacity: 0.8;
+    line-height: 0.5;
+   }
+.first_block:hover .bottom_block::after{
+    content:"了解更多";
+    height: 18px;
+    padding: 7px 0;
+    background-color:rgba(121,200,189);
+    display: block;
+    color: white;
+    text-align: center;
+    transition: all 0.8s;
+}
+.first_block:hover .pic_item{
+    transform: scale(1.1,1.1);
+    transition: all 0.8s;
+}
+
+.tab_contents .second_block{
+    position: relative;
+    overflow: hidden;
+    background: white;
+  }
+  .tab_contents .second_block a{
+      text-decoration: none;
+      color: black;
+  }
+  .second_block .bottom_block::after{
+      content:"";
+      height:10px;
+      width: 100%;
+      background-color: black;
+      display: block;
+      position: absolute;
+      bottom: 0;
+  }
+  
+  .second_block p{
+      line-height: 1;
+      position: relative;
+      left: 22px;
+      /* border: 1px solid red; */
+  
+  /* .second_block p:nth-child(2){
+      font-size: 14px;
+      opacity: 0.8;
+      line-height: 0.5;
+     }
+  .second_block:hover .bottom_block::after{
+      content:"了解更多";
+      height: 18px;
+      padding: 7px 0;
+      background-color:rgba(121,200,189);
+      display: block;
+      color: white;
+      text-align: center;
+      transition: all 0.8s;
+  }
+  .second_block:hover .pic_item{
+    transform: scale(1.1,1.1);
+    transition: all 0.8s;
+}
+
+  .tab_contents .third_block{
+   box-sizing: border-box;
+   position: relative;
+   overflow: hidden;
+   background: white;
+  }
+
+  .tab_contents .third_block a{
+      text-decoration: none;
+      color: black;
+  }
+  .third_block .bottom_block::after{
+    content: "";  
+    height:10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    display: block;
+  }
+  .third_block p{
+      line-height: 1;
+      position: relative;
+      left: 22px;
+  }
+  .third_block p:nth-child(2){
+      font-size: 14px;
+      opacity: 0.8;
+      line-height: 0.5;
+     }
+.third_block:hover .bottom_block::after{
+      content:"了解更多";
+      height: 18px;
+      padding: 7px 0;
+      background-color:rgba(121,200,189);
+      display: block;
+      color: white;
+      text-align: center;
+      transition: all 0.8s;
+     }
+.third_block:hover .pic_item{
+    transform: scale(1.1,1.1);
+    transition: all 0.8s;
+}  */
+.first_block{
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid blue;
+    background-color: white;
+    /* transition: all 0.8s; */
+    position: relative;
+}
+.first_block::after{
+    content: "";  
+    height:10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    display: block;
+    transition: all 0.8s;
+}
+.first_block:hover::after{
+    content:"了解更多";
+    height: 18px;
+    padding: 7px 0;
+    background-color:rgba(121,200,189);
+    display: block;
+    color: white;
+    text-align: center;
+  
+}
+dd{
+    padding-bottom: 30px;
+}
+
+.first_block:hover img{
+  transform: scale(1.1);
+}
+dt{
+    padding-left:25px ;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+dd p{
+    font-size: 16px;
+}
+dd p:first-child{
+  font-size: 15px;
+  color: #888888;
+}
+.first_block a{
+    text-decoration: none;
+    color: black;
+}
+.pic_item{
+    border: 1px solid black;
+  font-size: 0;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  /* transition: all 0.8s; */
+}
+.pic_item img{
+    width: 100%;
+    transition: all 0.8s;
+}
+ .resce{
+    border: 1px solid red;
+    display: flex;
+} 
+.flex_two{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around; 
+    float: left;
+    width: 100%;
+}
+.tab_container{
+    width: 100%;
+}
+
+@media screen and (max-width:1460px){
+    .first_block{
+        width: 250px;
+    }.pic_item{
+        width: 250px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:1207px){
+    .first_block{
+        width: 250px;
+    }.pic_item{
+        width: 250px;
+        height: 150px;
+    }.aside_background{
+        display: none;
+    }
+}@media screen and (min-width:951px){
+    .city2{
+        display: none;
+    }.f_four{
+        display: none;
+    }
+}
+@media screen and (max-width:950px){
+    .city2{
+        display: inline-block;
+        padding: 1px 10px;
+        height: 39px;
+        border-radius: .25rem;
+        border: 1px solid #eaeaea;
+        font-size: 18px;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance: none;
+        outline: none;
+        background: none;
+        width: 225px;
+        background-image: url('../img/arrow-2.png');
+        background-repeat: no-repeat;
+        background-size: 12px;
+        background-position: right 8px center;
+        cursor: pointer;  
+    }.contani_city{
+        text-align: center;
+    }
+    .tab_list_block{
+        display: none;
+    }
+    .tab_container{
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+    }
+    .tab_container::after{
+        content: "";
+        background-image: url('../img/photo.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        background-position: center ;
+       min-width: 100%;
+        position: absolute;
+        height: 250px;
+        bottom: 0;
+        left: 0;
+        filter: brightness(0.3);
+      
+    }.flex_two{
+        display: block;
+    }.first_block{
+        display: inline-block;
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        /* padding: 0 38px; */
+        box-sizing: border-box;
+        width: 300px;
+        
+    }.f_one{
+        transform: translate(90%);
+    }
+    .f_two{
+        transform: translate(220%);
+     
+    }
+    .f_three{
+        transform: translate(350%);
+    } .f_four{
+        transform: translate(480%);
+        display:inline-block;
+    }
+   
+   
+    .flex_two{
+        animation:moveleft 10s ease-in-out infinite;
+        position: absolute;
+        z-index: 2;
+    }
+    @keyframes moveleft{
+        0%{
+            transform: translate(0%);
+
+        }
+        20%{
+            transform: translate(0%);
+   
+        }
+        40%{
+            transform: translate(-60%);
+
+        }
+        60%{
+            transform: translate(-60%);
+
+        }
+        80%{
+            transform: translate(-110%);
+
+        }
+        100%{
+            transform: translate(-110%);
+
+        }
+    }
+    .pic_item{
+        width: 100%;
+    }p.more{
+       top:  -60px ;
+       z-index: 2;
+    }.progress{
+        display: inline-block;
+        position: absolute;
+        background-color: #eaeaea;
+        height: 3px;
+        width: 40px;
+        bottom: 5%;
+       left: 50%;
+        z-index: 2;
+        transform: translate(-50%);
+        box-sizing: border-box;
+    }.progress_contant{
+        /* width: 3px; */
+        display: inline-block;
+        height: 3px;
+        background-color: rgba(121,200,189);
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
+        padding-left: 10px;
+         z-index: 3;
+         transform: translate(-50%);
+         animation: progress 10s line infinite;
+    }@keyframes progress{
+        
+            0%{
+                padding-left: 10px;
+            }
+        50%{
+            padding-left: 20px;
+        }
+        50%{
+            padding-left: 30px;
+        }
+    
+}
+}
+
+
+
+
+
+
+  p.more{
+      color:rgba(121,200,189);
+      text-align: right;
+      font-size: 16px;
+      position: relative;
+      right: 13.7%;
+     transition: transform 0.5s;
+     
+  }
+
+
+ a.moremore{
+    text-decoration: none;
+     display: inline-block; 
+    padding-left:79.4%;
+   
+ }
+ .more:hover{
+     transform: scale(1.2,1.2);
+ }
+/* 頁籤區塊 */
+div.tab_list_block{
+  padding-left: 20px;
+}
+
+/* 頁籤列表 */
+div.tab_list_block ul.tab_list{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+div.tab_list_block ul.tab_list > li{
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+div.tab_list_block ul.tab_list > li > a{
+  text-decoration: none;
+  display: inline-block;
+  /* border-bottom: 1px solid black; */
+  padding: 12px 75px;
+  /* border-radius: 5px 5px 0 0; */
+  cursor: pointer;
+  color: rgba(68,79,84);
+  position: relative;
+  top: 1px;
+  /* left: 133%; */
+  /* 早上記得條位置 */
+  transform: skew(-10deg, 0deg);
+  background:rgba(199,199,215);
+}
+div.tab_list_block ul.tab_list >li:first-child>a{
+    padding: 0;
+    color: white;
+    transform: skew(0deg, 0deg);
+    width: 105px;
+    border-right: 9px solid transparent;
+    border-top: 45px solid rgba(28,119,195);
+    height: 0;
+    background-color: transparent;
+    margin-top: 2px;
+}
+.taipei_city{
+    position: absolute;
+    top: 11px;
+    left: 25%;
+    color: white;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* .tab_list_block .bottom_line::after{
+ content: "";
+ height: 4px;
+ display: block;
+ width:100%;
+ background-color: rgba(28,119,195);
+ position: absolute;
+ left:0;
+ top: 46px;
+} */
+
+/* 頁籤內容區塊 */
+/* div.tab_container div.tab_contents{
+  border: 1px solid black;
+} */
+div.tab_container div.tab_contents div.tab{
+  padding: 10px;
+  display: none;
+}
+div.tab_container div.tab_contents div.tab.-on{
+  display: block;
+} 
+/* .tab_container{
+    display:inline-block;
+    position: absolute;
+    top:15%;
+    right: 0;
+    z-index: 233;
+} */
+
+
+section.home_rest{
+    position: relative;
+ 
+}
+
+section.home_rest .t_block{
+    width:42.263427%;
+    filter: brightness(0.7);
+    display: inline-block;
+}
+
+section.home_rest .t_block img{
+    width: 100%;
+}
+.home_rest .bright_one{
+    width: 31.71355%;
+    position: absolute;
+    top: 0;
+    left:27%;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 0;
+}
+.home_rest .bright_one img{
+    width: 100%;
+}
+
+.home_rest h2{
+    position: absolute;
+    top: 23%;
+    right: 20%;
+}
+.home_rest p{
+    font-size: 20px;
+    line-height: 2;
+    width: 25.575448%;
+    position: absolute;
+    top: 37%;
+    right: 11%;
+}
+.home_rest .go{
+    position: absolute;
+    top: 65%;
+    right: 11.5%;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: .375rem 20px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-family: "微軟正黑體";
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.home_rest .go .gogo{
+    color: white;
+    text-decoration: none;
+}
+.go:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+section.cook .ttwo_block{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+section.cook .bright_two{
+    position: absolute;
+    top: 13%;
+    right: 30%;
+    box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 0;
+}
+section.cook h2{
+    position: absolute;
+}
+.home_rest .bright_one a img{
+    width: 100%;
+}
+
+section.cook{
+    position: relative;
+    margin-top:100px;
+    height: 450px;
+}
+section.cook h2{
+    position: absolute;
+    top: 22%;
+    left: 15%;
+}
+section.cook p{
+    font-size: 20px;
+    line-height: 2;
+    width: 25.575448%;
+    position: absolute;
+    top: 37%;
+    left: 7%;
+}
+section.cook .run{
+    position: absolute;
+    top: 66%;
+    left: 28%;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: .375rem 20px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-family: "微軟正黑體";
+    transition: all 0.8s;
+    cursor: pointer;
+}
+section.cook .run:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+section.cook .ttwo_block{
+    width:42.263427%;
+    filter: brightness(0.7);
+}
+section.cook .ttwo_block img{
+    width: 100%;
+}
+section.cook .bright_two{
+    width: 31.71355%;
+}
+section.cook .bright_two img{
+    width: 100%;
+}
+section.mode .exite{
+    text-align: center;
+}
+.mode{
+    position: relative;
+    margin-top: 70px;
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.mode img:nth-child(3){
+    position: absolute;
+    top:40%;
+    right: 45%;
+}
+.mode img:nth-child(4){
+    position: absolute;
+    top:18%;
+   left: 53%;
+}
+.mode img:nth-child(2){
+    position:absolute;
+    top:-20%;
+    left: 7%;
+}
+section.mode .earn{
+    width: 124px;
+    height: 124px;
+    border-radius: 100%;
+    background-color: white;
+    border: 25px solid rgba(250, 215, 139, 0.8);
+    line-height: 5;
+   text-align: center;
+   font-size: 24px;
+   position: relative;
+   left: 33%;
+   margin-top: 5%;
+}
+section.mode .one_menu{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    border: 25px solid rgba(250, 215, 139, 0.8);
+    line-height: 4;
+   text-align: center;
+   font-size: 24px;
+   position: absolute;
+   left: 55%;
+}
+section.mode .brige{
+   font-size: 20px;
+   line-height: 2;
+   position: absolute;
+   left: 66%;
+   top:30%;
+}
+section.mode .insist{
+   font-size: 20px;
+   line-height: 2;
+   position: absolute;
+   top: 70%;
+   left: 17%;
+}
+.taiwan{
+    margin-top: 50px;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/Lovepik_com-500001669-clouds-in-the-sky.png');
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+
+.taiwan .turrnel{
+    position: absolute;
+    left: 63%;
+    top: 33%;
+}
+.taiwan img{
+    padding-top: 7%;
+}
+.taiwan .time{
+    font-size: 20px;
+    line-height: 2;
+    position: absolute;
+    top: 47%;;
+    left: 50%;
+    letter-spacing:2px;
+    color: #74767D;
+}
+.taiwan .no{
+    font-size: 18px;
+    position: absolute;
+  top:80%;
+  left: 79%;
+}
+
+
+
+
+footer
+
+body {
+    font-family: "helvetica","arial","微軟正黑體", "Noto Sans Mono CJK TC";
+     margin: 0;
+     padding: 0;
+}
+h1{
+    font-size: 36px !important;
+}
+/* h2{
+    font-size: 30px !important;
+    line-height: 2 !important;
+} */
+/* p{
+    font-size: 20px !important;
+    line-height: 2 !important;
+} */
+
+
+.big_background{
+    margin-top: 170px;
+}
+header.header{
+    opacity: 0.7;
+transition: opacity 0.5s;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+   background-color: white;
+   /* padding-bottom: 20px; */
+ }
+header.header:hover{
+    opacity:1;
+} 
+
+header.header .logo{
+    width: 150px;
+    /* border: 1px solid red; */
+    margin-left: 150px ;
+    margin-top: 50px;
+
+    box-sizing: border-box;
+   /* padding: 5%; */
+}
+header.header .logo img{
+    width: 100%;
+}
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+    height: 172px;
+}
+.header .menu{
+    margin-top: 100px;
+    margin-right: 100px;
+    padding: 0;
+    /* display: inline-flex; */
+    /* position: absolute;
+    right: 7%;
+    margin-top: 6.2%; */
+    list-style: none;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    /* padding-top: 5%; */
+    /* position: relative; */
+}
+
+.explore {
+    position: relative;
+    padding: 20px;
+}
+
+.header .menu .explore_list {
+    margin:0;
+    padding: 0;
+    display:block;
+    position: absolute;
+    width: 184px;
+     top: 168px; 
+     opacity: 0;
+     z-index: 5;
+     transition: all 0.5s;
+
+}
+.menu li:hover .explore_list{
+    opacity: 1;
+}
+.header .menu .explore_list li {
+    list-style: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 0;
+    line-height: 0;
+    padding: 0;
+    transition: all 0.5s;
+}
+
+.menu li:hover .explore_list li{
+    height: 30px;
+    line-height: 15px;
+    padding: 5px 0;
+}
+.header .menu .explore_list>li>a {
+    width: 100%;
+    background-color: rgba(250, 107, 31, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 0;
+    transition: all 0.5s;
+    opacity: 0.9;
+}
+
+.header .menu .explore_list>li>a:hover{
+    color: white;
+    font-size: 22px;
+}
+.header .menu>li {
+    list-style: none;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0;
+}
+.header .menu>li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.header .menu>li:hover {
+    background: #eaeaea;
+}
+@media screen and (max-width:1199px){
+    .header .menu>li{
+        font-size: 20px;
+    }.big_background{
+        margin-top: 170px;
+    }.header .menu .explore_list{
+        width: 160px;
+      
+    }.header .menu{
+        margin-right: 60px;
+    }
+    header.header .logo{
+        margin-left: 60px;
+        width: 130px;
+        margin-top: 55px;
+    }
+}
+.big_background {
+    /* border: 1px solid red; */
+    background-image: url('/img/bigbakground..png');
+    background-position: center;
+}
+.mid_background {
+    /* border: 1px solid blue; */
+    width: 86.80%;
+    margin: 0 auto;
+    background-color: white;
+}
+footer .footer_color{
+    background-color: #1c77c3;
+    padding-bottom: 3%;
+    }
+   
+    footer{
+        color: white;
+        /* position: relative; */
+        line-height: 2;
+        font-size: 18px;
+        position: relative;
+    }
+   .footer_color .flex_move{
+       display: flex;
+       /* border: 1px solid red; */
+       width: 80%;
+       margin: 0 auto;
+       padding-top: 2%;
+       align-items: stretch;
+       color:  #d9d9f3;
+       box-sizing: border-box;
+   }
+   .flex_move_one,.flex_move_two,.flex_move_three,.flex_move_four{
+    /* border: 1px solid red; */
+    width: 25%;
+   }
+   .flex_move_two,.flex_move_three,.flex_move_four{
+       /* border:1px solid red; */
+       text-align: center;
+   }
+   .flex_move_four{
+       position: relative;
+   }
+   .flex_move_four::before{
+       content: "";
+       width: 70%;
+       height: 2px;
+       display: block;
+       background-color: #f88f26;
+       transform: rotate(-50deg);
+       position: absolute;
+       top: 50%;
+     left: -40%;
+   }  
+   .flex_move_two .aaa {
+       padding-right:20%;
+   }
+   .flex_move_two .aaa a:hover{
+       color:#f88f26 ;
+   }
+
+   span.eatturnel:hover a.eat_turrnel{
+    color:#f88f26 ;
+   }
+
+   .flex_move_two .bbb {
+    padding-right:35%;
+}
+.flex_move_two .ccc{
+    padding-right:55%;
+} 
+.eatturnel,.enents{
+    padding-right:20%;
+}
+   .flex_move_one span:first-child,.flex_move_two span:first-child,.flex_move_three span:first-child{
+    line-height: 3.5;
+    font-size: 22px;
+    font-weight:600 ;
+    color: white;
+   }
+   .flex_move_one span:first-child{
+       font-size: 30px;
+       color: #f88f26;
+       line-height: 2.8;
+   }
+   .footer_color .flex_move a{
+       text-decoration: none;
+       color:  #d9d9f3;
+   }
+   footer .copy{
+       bottom: 0;
+       position: absolute;
+       left: 50%;
+       transform: translate(-50%,0);
+   }
+   .item_picture{
+       display: flex;
+       /* border: 1px solid red; */
+      padding-top: 15%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 7%;;
+   }
+   .item_picture svg{
+     padding: 0px 7px;
+   }
+   @media (min-width:768px){
+    .hamburger_icom,.nav{
+        display: none;
+    }
+   }
+   @media (max-width:767px){
+    header.header{
+        padding: 0;
+        margin: 0;
+        border-bottom: 1px solid white;
+        opacity: 1;
+        position: static;
+        /* height: 80px; */
+    }
+    .header .menu {
+        display: none;
+        position:static;
+    }
+    header.header .logo{
+        width: 115px;
+        /* border: 1px solid red; */
+        margin-left: 60px ;
+        /* box-sizing: border-box; */
+       /* padding: 5%; */
+    }
+    div.logo a img{
+        width: 100%;
+    }
+    .big_background{
+       margin-top: 0;
+    }
+    header.header .header_flex{
+        display: flex;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        height: 80px;
+        padding-bottom: 70px;
+    }
+
+     .logo{
+        /* padding: 4%; */
+        box-sizing: border-box;
+        /* border: 1px solid red; */
+     }
+     .hamburger_icom{
+         padding-top: 70px; 
+         padding-right: 40px;
+     }
+     .menu_hide>li{
+       display: block;
+     }
+     .menu_hide{
+         margin: 0;
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+         position: fixed;
+         /* top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%); */
+         width: 100%;
+         height: 100%;
+         position: fixed;
+         top: 12%;
+         left: 0;
+         background-color: rgba(121,200,189,0.7);
+         z-index: 1;
+         /* border: 1px solid red; */
+         text-align: center;
+         clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 54% 100%, 0% 74%);
+        }
+     .menu_hide li a{
+         font-size:24px;
+     }
+     .facebook{
+         box-sizing: border-box;
+         padding: 10px 0px;
+     }
+     .menu_hide .explore_list_hide{
+        margin: 0;
+        padding: 0;
+     }
+     .menu_hide .explore_list_hide li{
+        list-style:none;
+        /* border-bottom: 1px solid rgba(255,255,255,0.7); */
+        box-sizing: border-box;
+        text-align: center;
+     }
+     .menu_hide li{
+         /* border: 1px solid green; */
+         font-size:24px;
+     }
+     .menu_hide li a{
+         color:white;
+         text-decoration: none;
+         display: inline-block;
+         /* border: 1px solid red; */
+         width: 100%;
+         height: 100%;
+     }
+     .menu_hide .explore_list_hide li a{
+        color: white;
+        border: 1px solid black;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 10px 0px;
+        /* padding: 10px; */
+        font-size: 22px;
+        box-sizing: border-box;
+        background-color: rgba(250, 107, 31, 0.8);
+     }
+     .menu_hide .explore_list_hide li:nth-child(2)::before{
+         content:"";
+         height: 1px;
+         background-color: #eaeaea;
+         display: block;
+         width: 100%;
+       
+     }
+     .menu_hide .explore_list_hide li:nth-child(2)::after{
+        content:"";
+        height: 1px;
+        background-color:#eaeaea;
+        display: block;
+        width: 100%;
+  
+     }
+    #menu_hide{
+        max-height:0vh;
+        overflow: hidden;
+        transition: all 0.8s;
+    }
+    #menu_hide.show{
+        max-height: 100vh ;
+      }
+      #explore_list_hide{
+        max-height:0vh;
+        overflow: hidden;
+        transition: all 0.8s;
+      }
+      #explore_list_hide.show_bt{
+        max-height: 100vh ;
+        transition: all 2s;
+      }
+      #explore_one{
+        max-height:0vh;
+        overflow: hidden;
+        transition: all 2s;
+      }
+      #explore_one.show_bt{
+        max-height: 100vh ;
+        transition: all 2s;
+      }
+      #explore_two{
+        max-height:0vh;
+        overflow: hidden;
+        transition: all 2s;
+      }
+      #explore_two.show_bt{
+        max-height: 100vh ;
+        transition: all 2s;
+      }
+
+     .footer_color .flex_move{
+       flex-wrap: wrap;
+       width: 90%;
+       justify-content: space-between;
+     }
+     .flex_move_one{
+        width: 45%;
+        padding-bottom: 6%;
+       }
+       .flex_move_one span:first-child{
+           line-height: 2;
+       }
+       .flex_move_two,.flex_move_three{
+          display: none;
+       }
+       .flex_move_four{
+           width: 27%;
+           padding-bottom: 6%;
+       }
+       div.item_picture{
+          padding: 15px 0px;
+          line-height: 2;
+       }
+       .flex_move_four::before{
+           display: none;
+       }
+       .eatturnel{
+           padding: 0;
+       }
+       .footer_color .flex_move .aaa, .footer_color .flex_move  .bbb, .footer_color .flex_move  .ccc{
+           padding: 0;
+       }
+       
+
+
+    
+     .hamburger {
+        padding: 15px 15px;
+        display: inline-block;
+        cursor: pointer;
+        transition-property: opacity, filter;
+        transition-duration: 0.15s;
+        transition-timing-function: linear;
+        font: inherit;
+        color: inherit;
+        text-transform: none;
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+        overflow: visible; }
+        .hamburger:hover {
+          opacity: 0.7; }
+        .hamburger.is-active:hover {
+          opacity: 0.7; }
+        .hamburger.is-active .hamburger-inner,
+        .hamburger.is-active .hamburger-inner::before,
+        .hamburger.is-active .hamburger-inner::after {
+          background-color: #888888; }
+      
+      .hamburger-box {
+        width: 40px;
+        height: 24px;
+        display: inline-block;
+        position: relative; }
+      
+      .hamburger-inner {
+        display: block;
+        top: 50%;
+        margin-top: -2px; }
+        .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+          width: 40px;
+          height: 4px;
+          background-color: #888888;
+          border-radius: 4px;
+          position: absolute;
+          transition-property: transform;
+          transition-duration: 0.15s;
+          transition-timing-function: ease; }
+        .hamburger-inner::before, .hamburger-inner::after {
+          content: "";
+          display: block; }
+        .hamburger-inner::before {
+          top: -10px; }
+        .hamburger-inner::after {
+          bottom: -10px; }
+          .hamburger--spring .hamburger-inner {
+            top: 2px;
+            transition: background-color 0s 0.13s linear; }
+            .hamburger--spring .hamburger-inner::before {
+              top: 10px;
+              transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+            .hamburger--spring .hamburger-inner::after {
+              top: 20px;
+              transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+          
+          .hamburger--spring.is-active .hamburger-inner {
+            transition-delay: 0.22s;
+            background-color: transparent !important; }
+            .hamburger--spring.is-active .hamburger-inner::before {
+              top: 0;
+              transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+              transform: translate3d(0, 10px, 0) rotate(45deg); }
+            .hamburger--spring.is-active .hamburger-inner::after {
+              top: 0;
+              transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+              transform: translate3d(0, 10px, 0) rotate(-45deg); }
+}

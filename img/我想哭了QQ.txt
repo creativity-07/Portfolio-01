@@ -1,0 +1,284 @@
+html:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大廚交流</title>
+    <link rel="stylesheet" href="./css/cook_social.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+           <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+        </div>
+        <ul class="menu">
+            <li>
+                <div class="explore"> 探索廢食不可</div>
+                <ul class="explore_list">
+                    <li><a href="#">待救美食</a></li>
+                    <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                    <li><a href="#">大廚交流</a></li>
+                </ul>
+
+            </li>
+            <li> <a href="./supply.html">提供餐點</a></li>
+            <li> <a href="./openkitchen.html">開設廚房</a></li>
+            <li><a href="#"> 登入</a></li>
+        </ul>
+    </header>
+    <div class="big_background">
+        <div class="mid_background">
+     <section class="first_sec">
+        
+        <h2>大廚交流</h2>
+       
+        <div class="move_one">
+        <h4>美食饗宴</h4>
+        <h1>探索美食的根源</h1>
+       <p>
+            一場美食達人們的舉辦的交響音樂會，食譜交匯而成的動人樂章。在這裡，你/我不只是觀眾，也是舞台上光耀璀璨的音樂家。
+        </p>
+        <button type="button" class="find">探索教室</button>
+    </div>
+        <div class="banner_pic">
+       <img src="./img/joys-kitchen-62.png" alt="">
+     </div>
+     </section>
+    <section class="second_sec">
+        <div class="move_two">
+        <h4>創立目的</h4>
+        <h1>集思廣益，凝聚智慧結晶</h1>
+        <p>由廢食不可提供一個空間，將各位大廚們平常下廚的習慣、慣用調味料、或是私房菜做統整，讓大廚們的智慧「結晶化」，創造更多有創意、有品質、美味的料理。此外，廢食不可也會聘用專任講師，引導大家討論的方向及開謎解惑;若是在討論中得出實用的料理，廢食不可日後會統整成冊，並將一部份的報酬回饋給參與者。</p>
+    </div> 
+        <div class="horizontal_one">建立交流平台</div>
+        <div class="horizontal_two">氣氛</div>
+        <div class="horizontal_three">廚房</div>
+        <div class="vertical_one">講師</div>
+        <div class="vertical_two">回饋</div>
+        <div class="second_pic">
+              <img src="./img/flute_two.png" alt="">
+          </div>
+    </section>
+    <section class="third_sec">
+        <div class="teacher">
+        <h4>專業講師</h4>
+        <h1>高人引領，突破過往料理瓶頸</h1>
+        <p>大家在下廚時想必不時會有調味料不曉得要抓幾匙，而讓親愛的家人、情人受苦的經驗吧?<br> 在大廚交流中，將由廢食不可專聘的講師帶領整個流程討論，<br> 提供最專業的解答的同時協助各位創造出自己喜好的味道，滿足你摯愛的味蕾。</p>
+    </div>
+    </section>
+    <section class="forth_sec">
+                    <div class="case">
+                    <dl class="case_one">
+                        <div class="pic_item pic_one"><img src="./img/859781e1-8e41-49d1-bc48-a3e3fcdfb873.png" alt="" class="pica"></div>
+                        <dt>Sue Ho老師</dt>
+                        <dd>做料理，無外乎料理人10大應用原則</dd>
+                    </dl>
+                    <dl class="case_two ">
+                        <div class="pic_item pic_two"><img src="./img/0a58d19a-b497-450e-b18a-0caa13c5c251.png" alt=""></div>
+                        <dt>Jia Lin老師</dt>
+                        <dd>讓同學把自己的料理，化平凡為神奇</dd>
+                    </dl>
+                    <dl class="case_three">
+                         <div class="pic_item pic_three"><img src="./img/6bcfda80-b647-4fa4-9073-401bd361e9e8.jpg" alt=""></div>
+                         <dt>Han Ting老師</dt>
+                         <dd>大家都很棒，幾霸葷</dd>
+                    </dl>
+                </div>
+    </section>
+        </div>
+    </div>
+
+css:
+@import "./common/realheaderandfooter.css";
+
+h1{
+    font-size: 36px !important;
+    line-height: 1.5;
+}
+h2{
+    font-size: 30px !important;
+    line-height: 1.5 !important;
+} 
+ p{
+    font-size: 18px !important;
+    line-height: 2.3 !important;
+}
+h4{
+    color: 	#888888;
+    font-size: 22px;
+    font-style: italic;
+}
+section.first_sec{
+    position: relative;
+}
+section.first_sec .banner_pic{
+    margin-top: 100px;
+    width: 70%;
+    height: 470px;
+    /* padding-top: 50%; */
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+section.first_sec .banner_pic img{
+    width: 100%;
+    /* height: 470px; */
+    /* object-fit: cover; */
+}
+section.first_sec .move_one{
+    padding-left: 10%;
+    width: 40%;
+}
+section.first_sec h2{
+    padding-bottom: 50px;
+}
+section.first_sec .find{
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: .375rem 20px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-family: "微軟正黑體";
+    transition: all 0.8s;
+}
+.find:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+section.second_sec{
+   padding-top: 700px;
+    position: relative;
+}
+section.second_sec .move_two{
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    margin-top: 3%;
+}
+section.second_sec .second_pic{
+    /* position: absolute; */
+   /* margin-right: 100px; */
+   width: 35%;
+   display: inline-block;
+   margin-left: 7%;
+   /* 如何轉向量QQ */
+}
+section.second_sec .second_pic img{
+    width: 100%;
+}
+section.second_sec .horizontal_one{
+position: absolute;
+margin-top: 20%;
+left: 21.5%;
+font-weight: 600;
+font-size: 18px;
+opacity: 0.8;
+}
+section.second_sec .horizontal_two{
+    position: absolute;
+    margin-top: 20%;
+    left: 15.1%;
+    color: #36859F;
+    font-weight: 600;
+}
+section.second_sec .horizontal_three{
+    position: absolute;
+    margin-top: 20%;
+    left: 31.8%;
+    color: #36859F;
+    font-weight: 600;
+}
+section.second_sec .vertical_one{
+    position: absolute;
+    margin-top: 8.7%;
+    left: 27%;
+    color: #36859F;
+    font-weight: 600;
+
+}
+section.second_sec .vertical_two{
+    position: absolute;
+    margin-top: 25%;
+    left: 27%;
+    color: #36859F;
+    font-weight: 600;
+}
+section.third_sec{
+    background-color: #BBDFDD;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+section.third_sec .teacher h4{
+    color:	#b1aeae;
+}
+section.third_sec .teacher p{
+    margin-bottom: 0;
+}
+.case{
+    width: 100%;
+     display: inline-block;
+    /* justify-content:space-around;  */
+    position: relative;
+    top: -80px;
+    left: 24.5%;
+}
+dt{
+    font-size: 22px;
+    color: #888888;
+    padding-left: 20px;
+    line-height: 2;
+ }
+ dd{
+     width: 100%;
+     text-align: left;
+     line-height: 2;
+     display: block;
+     /* border: 1px solid red; */
+     margin: 0 ;
+     padding-left: 20px;
+     line-height: 2;
+ }
+ dl.case_one,dl.case_two,dl.case_three{
+    display: inline-block;
+    /* padding:0px 20px; */
+   /* border: 1px solid red; */
+   margin: 0;
+   background-color: white;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+ 
+ }
+ .pic_item{
+    overflow: hidden;
+    transition: all 0.5s;
+    /* border: 1px solid red; */
+ }
+ 
+ .pic_item{
+    /* border: 1px solid red; */
+    font-size: 0;
+    width:270px;
+    height: 230px;
+}
+.pic_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+https://mnkylabs.com/themes/newseo/traveler
+https://demo.kaliumtheme.com/restaurant/?_ga=2.23432058.130826394.1571015208-804397623.1571015208
+https://demo.kaliumtheme.com/travel/?_ga=2.24102906.130826394.1571015208-804397623.1571015208
+https://kknews.cc/design/aonakk6.html
+https://www.joyinkitchen.com/teachers
+https://www.pinterest.com/pin/479422322808282095/

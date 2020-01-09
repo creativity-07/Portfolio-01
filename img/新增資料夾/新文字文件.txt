@@ -1,0 +1,505 @@
+html:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>供應餐點</title>
+    <link rel="stylesheet" href="css/real_supply.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/supply.js"></script>
+  <!-- 導入js方法:<script src="js/supply.js"></script> -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+       <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+    </div>
+
+    <ul class="menu">
+        <li>
+            <div class="explore"> 探索廢食不可</div>
+            <ul class="explore_list">
+                <li><a href="#">待救美食</a></li>
+                <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                <li><a href="#">大廚交流</a></li>
+            </ul>
+
+        </li>
+        <li> <a href="./supply.html">提供餐點</a></li>
+        <li> <a href="./openkitchen.html">開設廚房</a></li>
+        <li><a href="#"> 登入</a></li>
+    </ul>
+
+</header>
+    <div class="big_background">
+        <div class="mid_background">
+           <section class="first_head">
+            <div class="head_pic">
+                <div class="black_block"></div>
+            
+                <div class="join">
+                    <h2 class="rescue">提供餐點</h2>
+                    <!-- <h3>愛護地球由你而起</h3> -->
+                    <div class="list">
+                    <div class="city">店名</div>
+                    <input type="text" name="store" class="position"><br>
+                      <div class="city">所在縣市</div>
+                      <select name="city" class="city1" placeholder="縣市">
+                        <option value="">台北市</option>
+                        <option value="">新北市</option>
+                        <option value="">桃園市</option>
+                        <option value="">高雄市</option>
+                      </select><br>
+                      <div class="city">聯絡信箱</div>
+                      <input type="text" name="section" class="position" ><br>
+                      <div class="city">電話號碼</div>
+                      <input type="text" name="number" placeholder="店鋪或手機擇一" class="position"><br><br>
+                     <div class="button_holder"><button type="button" class="find">加入我們</button></div> 
+                    </div>
+                  </div>
+                  <div class="bottom_par">保留每份餐點餘溫 <br> 遞給奮鬥一天後的他/她</div>
+        </div>
+    </section>
+   <section class="second_sec">
+       <h2 class="service">服務流程</h2>
+     <div class="bottm_para">時間</div>
+     <div class="bottm_para_two">聯繫新顧客</div>
+     <div class="bottm_para_three">額外收入</div>
+      <div class="arrow_one">&gt;<span>&gt;</span></div>
+      <div class="arrow_two"><span>&lt;</span>&lt;</div>
+        <div class="inside">當發生食物浪費的危機時，您可以利用廢食不可所提供的平台、按照您所設定的價格、保留時段來上架。<br><br>不僅節省了您的時間，也可以讓您接觸新的客戶。</div>
+         <div class="background">
+          <div class="first_pic">
+            <div class="line_grad"></div>
+         <div class="char_one">
+          <h2>導入優點</h2>
+              <div><span>1. 賺取額外收入</span><span>2. 接觸新顧客</span><span>3. CSR活動一環</span></div>
+            </div>
+            </div>
+            <div class="second_pic">
+              <div class="line_grad_two"></div>
+            <div class="char_two">
+            <h2>簡單上手</h2>            
+            <div>可在您所期望的日期利用</div>
+        </div> 
+      </div>
+    </div> 
+      
+    <div class="main_pic"></div> 
+
+   </section>
+   <section class="third_sec">
+      <h2>廢食不可的特色</h2>
+      <div class="case">
+       <dl class="case_one">
+          <div class="pic_item pic_one"><img src="./img/secure-payment-3769bcb98be7ba7f40648452bdf7e987.png" alt="" ></div>
+         <dt>初期導入費用為0</dt>
+         <dd>包含初期導入費用在內，手續費、營運成本皆為0元。</dd>
+       </dl>
+       <dl class="case_two">
+          <div class="pic_item pic_two"><img src="./img/risk-scoring-d717766e30da2ba49defb961b1fcf1ef.png" alt="" ></div>
+         <dt>現場人員無負擔</dt>
+         <dd>不須繁複的設定，可用電話或LINE便可與客人聯繫。</dd>
+       </dl>
+       <dl class="case_three">
+          <div class="pic_item pic_three"><img src="./img/account_protection-11fc7d87fc302efa30d5d8487d5f4fec.png" alt="" ></div>
+          <dt>最快2日內便可啟用</dt>
+          <dd>從您決定導入本系統那天算起，僅需2天便可啟動本系統。</dd>
+       </dl>
+      </div>
+   </section>
+   
+</div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+css:
+@import "./common/realheaderandfooter.css";
+
+
+h1{
+    font-size: 36px !important;
+    line-height: 1.5;
+}
+h2{
+    font-size: 30px !important;
+    line-height: 1.5 !important;
+} 
+ p{
+    font-size: 18px !important;
+    line-height: 2.3 !important;
+}
+h4{
+    color: 	#888888;
+    font-size: 22px;
+    font-style: italic;
+}
+.gift{
+    background-color: #A9A9A9;
+    z-index: 2;
+    opacity: 1;
+}
+
+section.first_head .head_pic{
+ background-image: url('../img/shutterstock_727507747.jpg');
+ width: 100%;
+ background-size: cover;
+ height: 85vh;
+ position: relative;
+ /* filter: brightness(0.7); */
+} 
+section.first_head .head_pic .black_block{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.join {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 20px;
+    width: 320px;
+    /* height: 450px; */
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top:20%;
+    left: 61%;
+}
+
+.city {
+    width:92%;
+     margin: 0 auto;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 0px;
+}
+h2.rescue{
+    width:92%;
+    margin: 0 auto;
+}
+.city1 {
+    padding: 10px 0px;
+    border-radius: .25rem;
+    border: 1px dotted;
+    font-size: 16px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    outline: none;
+    background: none;
+    width:92%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-image: url('../img/arrow-2.png');
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: right 8px center;
+    cursor: pointer;
+}
+
+input.position {
+    border: 1px dotted;
+    padding: 10px 0px;
+    font-size: 16px;
+    width:92%;
+    margin: 0 auto;
+    border-radius: .25rem;
+    box-sizing: border-box;
+}
+
+.join .button_holder{
+    margin: 0 auto;
+    width: 92%;
+    box-sizing: border-box;
+    text-align: right;
+}
+.find {
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: .375rem 20px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-family: "微軟正黑體";
+    transition: all 0.8s;
+    
+}
+.find:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.bottom_par{
+    line-height: 2.2;
+    font-size: 24px;
+    line-height: 2;
+    position: absolute;
+   bottom: 10%;
+   left: 15%;
+   color: white;
+   font-weight: bold;
+}
+
+section.second_sec{
+   padding-top: 10%;   
+   position: relative;
+   /* border: 1px red solid; */
+   background: linear-gradient(319deg, rgba(255, 226, 233, 0.9)2%, rgba(252, 213, 126, 0.8)60%);
+}
+section.second_sec::after{
+  content: "";
+  width: 100%;
+  padding-top: 5%;
+  display: block;
+  background-color: white;
+}
+section.second_sec .first_pic{
+    width: 29%;
+    padding-top: 20%;
+    background-image: url('../img/left.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   position: relative;
+
+}
+.line_grad{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(313deg, rgba(0, 0, 0, 0.9)2%, rgba(204, 206, 201, 0.9)60%); */
+    background: linear-gradient(121deg, rgba(0, 0, 0, 0.9)2%, rgba(204, 206, 201, 0.9)60%);
+    opacity: 0.9;
+}
+.char_one{
+ color: white;
+ position: absolute;
+ bottom: 3%;
+ left: 3%;
+}
+.char_one div span{
+    font-size: 18px;
+}
+.char_one div span:nth-child(2){
+    padding: 0px 35px;
+}
+ .second_pic{
+    width: 29%;
+    padding-top: 20%;
+    background-image: url('../img/right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   position: relative;
+   background-position: center;
+}
+.line_grad_two{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(313deg, rgba(0, 0, 0, 0.9)2%, rgba(204, 206, 201, 0.9)60%);
+    opacity: 0.9;
+}
+.char_two{
+    color: white;
+    position: absolute;
+    bottom: 14.8%;
+    right: 3%;
+   }
+ .char_two div{
+       font-size: 18px;
+}
+section.second_sec .service{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    z-index: 2;
+    color: #FFB402;
+}
+ .char_one h2,.char_two h2{
+     margin: 10px 0px;
+}
+section.second_sec .background{
+    width: 100%;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+}
+section.second_sec .inside{
+    position: absolute;
+    top: 27%;
+    z-index: 2;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 23%;
+    left: 32%;
+}
+ section.second_sec .arrow_one{
+  font-size: 60px;
+  position: absolute;
+  top: 0%;
+  left: 70.2%;
+  color: black;
+  opacity: 0.8;
+  z-index: 10;
+  cursor: pointer;
+  vertical-align: middle;
+} 
+section.second_sec .arrow_one:hover span{
+    opacity: 1;
+    animation:moveright 3s linear;
+    animation-iteration-count: 3;
+}
+@keyframes moveright{
+   0%,100%{transform: translateX(0px);}
+   50%{margin-left: 15px;}
+}
+section.second_sec .arrow_one span{
+  color: rgba(204, 206, 201, 0.9);
+    opacity: 0;
+    font-size: 40px;
+    vertical-align:15%;
+} 
+section.second_sec .arrow_two{
+    font-size: 60px;
+    position: absolute;
+  top:0%;         
+  left: 24%;
+  color: black;
+  opacity: 0.8;
+  z-index: 10;
+  cursor: pointer;
+  vertical-align: middle;
+border: 1px solid red;
+}
+section.second_sec .arrow_two span{
+    color: rgba(204, 206, 201, 0.9);
+    opacity: 0;
+    font-size: 40px;
+    vertical-align:15%;
+}
+section.second_sec .arrow_two:hover span{
+    opacity: 1;
+    /* animation:moveleft 3s linear;
+    animation-iteration-count: 3; */
+}
+   section.second_sec .arrow_two:hover {
+    animation:moveleft 3s linear;
+    animation-iteration-count: 3;
+}  
+
+@keyframes moveleft{
+    0%,100%{transform: translateX(0px);}
+    50%{margin-right: 15px;}
+ }
+section.second_sec .main_pic{
+    width: 60%;
+    height:100% ;
+     position:absolute;
+     /* border: 1px solid red; */
+     top: 0;
+     left: 20%;
+     background-image: url('../img/picture111.png');
+     background-size:cover;
+     background-repeat: no-repeat;
+     /* clip-path: polygon(0% 0%, 100% 0%, 86% 14%, 85% 100%, 15% 100%, 15% 14%); */
+     clip-path: polygon(0% 0%, 100% 0%, 89% 28%, 89% 100%, 10% 100%, 10% 29%);
+
+     background-position: center 40%;
+}
+section.second_sec .bottm_para{
+    position: absolute;
+    bottom: -2%;
+    z-index: 2;
+    left: 34%;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    color: red;
+    /* padding-top: 10px; */
+}
+.bottm_para_two{
+    position: absolute;
+    bottom: -2%;
+    z-index: 2;
+    left: 47%;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    color: #60B6B5;
+} 
+.bottm_para_three{
+    position: absolute;
+    bottom: -2%;
+    z-index: 2;
+    left: 63%;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    color: #FFB402;
+    padding-top: 10px;
+}
+.case{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+dt{
+    font-size: 22px;
+    color: #888888;
+    padding-left: 20px;
+    line-height: 2;
+ }
+ dd{
+     /* width: 100%; */
+     text-align: left;
+     line-height: 2;
+     display: block;
+     font-size: 18px;
+     /* border: 1px solid red; */
+     margin: 0 ;
+     padding-left: 20px;
+     line-height: 2;
+ }
+ dl.case_one,dl.case_two,dl.case_three{
+    display: inline-block;
+    /* padding:0px 20px; */
+   border: 1px solid red;
+   margin: 0;
+   background-color: white;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    
+ }
+ .pic_item{
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 0;
+    width:100%;
+   
+    /* height: 326px; */
+    border: 1px solid red;
+    display: block;
+ }
+
+.pic_item img{
+    width: 100%;
+   
+}

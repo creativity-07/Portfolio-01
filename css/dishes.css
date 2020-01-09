@@ -1,0 +1,320 @@
+@import "./common/realheaderandfooter.css";
+@import "./common/wow.css";
+
+h1{
+    font-size: 36px !important;
+}
+ h2{
+     font-size: 30px !important;
+     line-height: 2 !important; 
+} 
+.big_menu{
+    position: relative;
+    /* border: 1px solid red; */
+}
+.mid_background .background{
+    /* border: 1px solid red; */
+    background-image: url('../img/1159.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+.mid_background .cover_pic{
+    background-color: black;
+    opacity: 0.5;
+    width:100%;
+    height:100%;
+}
+.move{
+    /* border: 1px solid red; */
+ position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+ .big_menu span.name{
+    color: white;
+  
+    font-weight:bold;
+    /* position: absolute;
+    top: 15%;
+    left: 20%; */
+    font-size: 34px;
+    /* border: 1px solid red; */
+}
+.big_menu p.sweet{
+    color: white;
+ 
+    /* position: absolute; */
+    /* top: 11%;
+    left: 20%; */
+    font-size: 22px;
+    font-family:"文鼎粗鋼筆行楷";
+    font-style: italic;
+}
+/* .big_menu img.max_cake{
+    width: 32%;
+} */
+section.big_menu div.max_cake{
+  
+    /* width: 32%; */
+    width: 450px;
+    height: 460px;
+    position: absolute;
+	top:20%;
+    left:7%;
+    /* margin-left:-90px;
+	margin-top:-8px; */
+    background-image: url('../img/48102878527_a2e39f1027_h.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation:hahaha 4s linear forwards; 
+    z-index: 5;
+}
+ @keyframes hahaha{
+    0%,100%{opacity: 0;}
+    50%{opacity: 1;}
+} 
+/* .big_menu img.mid_cake{
+    width: 450px;
+    position: absolute;
+    top: 23%;;
+    left: 7%;
+} */
+/* .big_menu .small_cake{
+    height: auto;
+    font-size: 0;
+    position: absolute;
+    top:48%;
+    left:6.7%;
+} */
+.mid_cake{
+    width: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: .25rem;
+    /* border: 1px solid red; */
+   padding-top: 5%;
+}
+.mid_cake img{
+    width: 100%;
+}
+
+.big_menu .small_cake{
+    display: flex;
+    /* border: 1px solid red; */
+     justify-content: center;
+}
+ .big_menu .small_cake img{
+    width: 100%;
+    /* height: 80px;
+    object-fit: cover; */
+}
+.aaaaa{
+display: inline-block;
+width:100px;
+margin:0px 7px;
+font-size: 0;
+}
+
+/* .small_cake .aaaaa:first-child{
+    border: 2px solid deeppink;
+}   */
+.bb{
+    border: 3px solid deeppink;
+}
+#menu_one.show{
+    border: 3px solid deeppink;
+}
+#menu_two.show{
+    border: 3px solid deeppink;
+}
+#menu_three.show{
+    border: 3px solid deeppink;
+}
+#menu_four.show{
+    border: 3px solid deeppink;
+}
+.up_body{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+}
+.left{
+    /* border: 1px solid blue; */
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.right{
+    box-sizing: border-box;
+    width: 45%;
+}
+.flex_move{
+    display: flex;
+    /* border: 1px solid green; */
+    padding: 10px 0px;
+}
+.merchandise{
+    width: 30%;
+    color: #74767D;
+}
+.ttime{
+    /* border: 1px solid yellow; */
+    width: 70%;
+}
+.right{
+   line-height: 2;
+}
+.sort{
+    padding: 1px 10px;
+    height: 39px;
+    border-radius: .25rem;
+    border: 1px dotted;
+    font-size: 18px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    outline: none;
+    background: none;
+    width: 100px;
+    background-image: url('../img/arrow-2.png');
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: right 8px center;
+    cursor: pointer;
+}
+
+.big_menu .informaion{
+    margin-top: 5%;
+}
+.rescue button{
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: .375rem 20px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-family: "微軟正黑體";
+    left: 44px;
+    transition: all 0.8s;
+    text-align: left;
+}
+.rescue{
+    /* border: 1px solid blue; */
+   text-align:center;
+}
+.rescue button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+@media screen and (max-width:1400px){
+    .up_body{
+        width: 90%;
+    }article.informaion{
+        width: 90%;
+      
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1200px){
+    .up_body{
+        width: 95%;
+    }article.informaion{
+        width: 95%;
+      
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1100px){
+    .up_body{
+        width: 100%;
+        flex-direction: column;
+    }
+    .left{
+        width: 90%;
+        margin: 0 auto;
+    }.right{
+        width: 90%;
+        margin: 0 auto;
+    }.aftea{
+         text-align: center;
+    }.mid_cake{
+        width: 250px;
+        /* padding-top: ; */
+    }.small_cake{
+        margin-top: 5%;
+        /* flex-basis:100px; */
+    }article.informaion{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+article.informaion{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+article.informaion img{
+    width: 100%;
+}
+h2,h3{
+    opacity: 0.9;
+}
+article.informaion a{
+    text-decoration: none;
+    color: rgba(121,200,189);
+}
+hr.hr_line{
+    width: 95%;
+    border-top: 1px solid #ddd;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    margin-right: 10%;
+}
+article.informaion .paragraph{
+  width: 70%;
+  /* border: 1px solid red; */
+  line-height: 2;
+  /* letter-spacing:10px;  */
+}
+.goods .afternoon .name{
+    color:#757575;
+}
+.informaion .map{
+    /* border: 1px solid red; */
+    margin-top: 1%;
+}
+.informaion iframe{
+    width: 100%;
+}
+section.down_body{
+    padding-bottom: 3%;
+}.big_menu span.name{
+    font-size: 30px;
+}.big_menu p.sweet{
+    font-size: 20px !important;
+}
+
+@media screen and (max-width:376px){
+    .web_c{
+        width: 60vw;
+        overflow: hidden;
+    }article.informaion .paragraph{
+        width: 85%;
+    }.ttime{
+        width: 85% ;
+    }.merchandise{
+        width: 50%;
+    }
+}

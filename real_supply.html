@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>供應餐點</title>
+  <link rel="stylesheet" href="css/real_supply.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/supply.js"></script>
+  <!-- 導入js方法:<script src="js/supply.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  </head>
+
+<body>
+    <header class="header">
+        <div class="header_flex">
+    
+          <div class="logo">
+            <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+          </div>
+          <ul class="menu">
+            <li>
+              <div class="explore"> 探索廢食不可</div>
+              <ul class="explore_list">
+                <li><a href="./dishes.html">待救美食</a></li>
+                <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                <li><a href="./cook_social.html">大廚交流</a></li>
+              </ul>
+    
+            </li>
+            <li> <a href="./real_supply.html">提供餐點</a></li>
+            <li> <a href="./openkitchen.html">開設廚房</a></li>
+            <li><a href="#"> 登入</a></li>
+          </ul>
+          <nav class="nav">
+            <ul class="menu_hide" id="menu_hide">
+              <li>
+                <div class="explore_hide facebook" id="explore_hide"> 探索廢食不可 V</div>
+                <ul class="explore_list_hide" id="explore_list_hide">
+                  <li><a href="./dishes.html">待救美食</a></li>
+                  <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                  <li><a href="./cook_social.html">大廚交流</a></li>
+                </ul>
+              </li>
+              <li> <a href="./real_supply.html" class="facebook">提供餐點</a></li>
+              <li> <a href="./openkitchen.html" class="facebook">開設廚房</a></li>
+              <li>
+                <div class="explore_hide facebook" id="explore_hide_one"> 關於我們 V</div>
+                <ul class="explore_list_hide explore_one" id="explore_one">
+                  <li><a href="./vision.html">創業理念</a></li>
+                  <li><a href="#">團隊簡介</a></li>
+                  <li><a href="#">常見問題</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="explore_hide facebook" id="explore_hide_two"> 會員專區 V</div>
+                <ul class="explore_list_hide explore_two" id="explore_two">
+                  <li><a href="#">食光隧道</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="facebook"> 登入</a></li>
+            </ul>
+          </nav>
+          <div class="hamburger_icom">
+            <button class="hamburger hamburger--spring btn_switch" type="button" id="hamburger">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </header>
+  <div class="big_background">
+    <div class="mid_background">
+      <section class="first_head">
+        <div class="head_pic">
+          <div class="black_block"></div>
+
+          <form class="join">
+            <h2 class="rescue">提供餐點</h2>
+            <!-- <h3>愛護地球由你而起</h3> -->
+            <form class="list">
+              <div class="city">店名</div>
+              <input type="text" name="store" class="position"><br>
+              <div class="city">所在縣市</div>
+              <select name="city" class="city1" placeholder="縣市">
+                <option value="">台北市</option>
+                <option value="">新北市</option>
+                <option value="">桃園市</option>
+                <option value="">高雄市</option>
+              </select><br>
+              <div class="city">聯絡信箱</div>
+              <input type="text" name="section" class="position"><br>
+              <div class="city">電話號碼</div>
+              <input type="text" name="number" placeholder="店鋪或手機擇一" class="position"><br><br>
+              <div class="button_holder"><button type="button" class="find">加入我們</button></div>
+            </form>
+          </form>
+          <h2 class="worm">提供餐點，傳遞溫暖</h2>
+
+          <div class="bottom_par">保留每份餐點餘溫 <br> 遞給奮鬥一天後的他/她</div>
+        </div>
+      </section>
+      <section class="hide_firest">
+        <div class="join_hide">
+          <h2 class="rescue">一份餐點，溫暖人心</h2>
+          <!-- <h3>愛護地球由你而起</h3> -->
+          <div class="list">
+            <div class="big_mode">
+              <div class="small_mode">
+                <div class="city">店名</div>
+                <input type="text" name="store" class="position"><br>
+              </div>
+
+              <div class="small_mode">
+                <div class="city">所在縣市</div>
+                <select name="city" class="city1" placeholder="縣市">
+                  <option value="">台北市</option>
+                  <option value="">新北市</option>
+                  <option value="">桃園市</option>
+                  <option value="">高雄市</option>
+                </select><br>
+              </div>
+            </div>
+            <div>
+
+              <div class="big_mode">
+                <div class="small_mode">
+                  <div class="city">聯絡信箱</div>
+                  <input type="text" name="section" class="position"><br>
+                </div>
+                <div class="small_mode">
+                  <div class="city">電話號碼</div>
+                  <input type="text" name="number" placeholder="店鋪或手機擇一" class="position"><br>
+                </div>
+              </div>
+              <div class="inputholder"><button type="button" class="find1">加入我們</button></div>
+            </div>
+          </div>
+      </section>
+      <section class="second_sec">
+
+        <div class="service">
+          <h2>服務流程</h2>
+        </div>
+        <div class="torescue"><img src="./img/torescue.png" alt=""></div>
+        <div class="foreat">
+          <p>所有的食物為了能在最美味的時候送至消費者手中，<br> 廢食不可為您規劃了最完善的流程。</p>
+        </div>
+        <div class="introduce">詳情請看以下介紹</div>
+        <div class="itemPanel">
+
+          <div class="wrap">
+            <div class="item">
+              <img src="./img/p1.png" alt="">
+              <div class="happen face">發生食物浪費的危機時，您可以利用本網站。</div>
+            </div>
+            <div class="item">
+              <img src="./img/p2.png" alt="">
+              <div class="sample face">廢食不可，省時享食，就是那麼簡單。</div>
+            </div>
+            <div class="item">
+              <img src="./img/p3.png" alt="">
+              <div class="wait face">等待那個她/他來領食物。</div>
+            </div>
+          </div>
+
+          <div class="arrow_one" id="ar1" disabled>&gt;<span id="gr1">&gt;</span></div>
+          <div class="arrow_two" id="ar2" disabled><span id="gr2">&lt;</span>&lt;</div>
+        </div>
+      </section>
+      <div class="bottom_parage">
+        <div class="bottm_para">時間</div>
+        <div class="bottm_para_two">聯繫新顧客</div>
+        <div class="bottm_para_three">額外收入</div>
+      </div>
+      <section class="third_sec">
+        <div class="portrait">
+          <h2>廢食不可的特點</h2>
+        </div>
+        <div class="case">
+          <dl class="case_one wow fadeInLeft" date-wow-duration="2s" date-wow-delay="0.5s">
+            <div class="pic_item pic_one"><img src="./img/secure-payment-3769bcb98be7ba7f40648452bdf7e987.png" alt="">
+            </div>
+            <div class="case_mid mid_mid">
+              <dt>初期導入費用為0</dt>
+              <dd>包含初期導入費用在內，手續費、營運成本皆為0元。</dd>
+            </div>
+          </dl>
+          <dl class="case_two wow fadeInUp"  date-wow-duration="2s" date-wow-delay="0.9s">
+            <div class="pic_item pic_two"><img src="./img/risk-1.png" alt=""></div>
+            <div class="case_mid shadow">
+              <dt>現場人員無負擔</dt>
+              <dd>不須繁複的設定，可用電話或LINE便可與客人聯繫。</dd>
+            </div>
+          </dl>
+          <dl class="case_three wow fadeInRight" date-wow-duration="2s" date-wow-delay="0.7s">
+            <div class="pic_item pic_three"><img src="./img/message.png" alt=""></div>
+            <div class="case_mid">
+              <dt>最快2日內便可啟用</dt>
+              <dd>從您決定導入本系統那天算起，僅需2天便可啟動本系統。</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="blue_back"></div>
+      </section>
+      <section class="four_sic">
+        <h2>關於廢食不可</h2>
+        <div class="how">
+          <div class="what">
+            <h3>什麼是廢食不可?</h3>
+            <p>廢食不可幫晚歸族發現世界各地的優質飲食和精彩體驗。 餐廳因食客而興，他們為晚歸族或喜歡嘗鮮的人提供溫暖的一餐，讓他們有機會品嘗豐盛的大餐。</p>
+          </div>
+          <div class="what">
+            <h3>什麼是供應餐點?</h3>
+            <p>如果您有因為各種因素所多出的食物，您可以與來自世界各地的食客分享，藉此賺取收入的同時，也能為地球環境做出貢獻。</p>
+            <div><a href="">近一步了解更多利用時機</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="six_pic">
+        <div class="little_move">
+          <div class="first_pic">
+            <div class="mid_pic pc1">
+              <img src="./img/600_phpnaVyeX.png" alt="">
+            </div>
+            <div class="char_one">
+              <div class="dote">“</div>
+              <div class="environment">提供餐點讓我認識了新的顧客，也結交了不少朋友。</div>
+              <div class="market">往品在台北市供應餐點，打開了新的市場</div>
+              <div><button type="button" class="learn">學習他們的待客之道</button>
+              </div>
+            </div>
+            <div class="mid_pic pc2">
+              <img src="./img/600_phpnaVyeX.png" alt="">
+            </div>
+
+          </div>
+          <div class="second_pic">
+            <div class="mid_pic">
+              <img src="./img/BN03_001.png" alt="">
+            </div>
+            <div class="char_two">
+              <div class="dote">“</div>
+              <div class="environment">透過廢食不可，讓我覺得做吃的也能與環保做連結。</div>
+              <div class="market">哇承在桃園出售食品，開心做環保。</div>
+              <div><button type="button" class="learn">學習他們的待客之道</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fif_sec">
+
+        <div class="quid_mid">
+          <h2 class="question">常見問題</h2>
+        </div>
+        <div class="big_flex">
+          <div class="one_block">
+            <div class="obk1">
+            <h3 class="shake" id="shake_one">偶爾才會有食物浪費的問題，可以刊登嗎?</h3>
+            <p class="p1" id="p1">沒有問題，並沒有每天都須供餐的規定。您可以再發生食物浪費的時間點在使用本網站。</p>
+          </div>
+          <div class="obk2">
+            <h3 class="shake" id="shake_two">沒有提供外帶服務的店，加入廢食不可嗎?</h3>
+            <p class=p2 id="p2">當然沒問題，有許多店家都是第一次，無須擔心。
+              </div>
+            </p>
+          </div>
+          <div class="two_block">
+            <div class="tbk1">
+            <h3 class="shake shke1" id="shake_three">店家方面需要做什麼準備嗎?</h3>
+            <p class=p3 id="p3">請您先預備能連接到廢食不可管理系統的平板或手機。另外，您無法透過廢食不可預約。</p>
+          </div>
+           <div class="tbk2">
+            <h3 class="shake" id="shake_four">供餐的價格是如何決定的呢?</h3>
+            <p class=p4 id="p4">菜單價格完全是由您決定的，建議設在50元到200元之間。</p>
+          </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="bottom_bac"></div>
+      </section>
+
+
+    </div>
+  </div>
+  <footer>
+      <div class="footer_color">
+        <!-- <img src="./img/logocop.png" alt=""> -->
+        <!-- <p><span class="about">關於我們</span><span class="user">會員專區</span></p> -->
+  
+        <div class="flex_move">
+          <div class="flex_move_one"><span><i> 廢食不可</i></span><br><span> 總公司 〒22777 桃園市中壢區資策會</span><br><span>
+              TEL：072-480-0831</span></div>
+          <div class="flex_move_two"><span> <i> 關於我們</i></span><br><span class="aaa"><a href="./vision.html" class="make">
+                創業理念</a></span><br><span class="bbb">團隊簡介</span><br><span class="ccc">常見問題</span></div>
+          <!-- <p>運作模式<br><a href="vision.html" class="make"> 創業理念</a><br>團隊簡介<br>常見問題</p> -->
+          <div class="flex_move_three"><span><i> 會員專區</i></span><br> <span class="eatturnel"><a href="#"
+                class="eat_turrnel">食光隧道</a></span></div>
+          <div class="flex_move_four">
+            <div class="item_picture">
+              <a href="https://www.facebook.com/AirbnbTaiwan" target="_blank" rel="noopener noreferrer" class="_1rp5252"
+                aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img"
+                  aria-label="瀏覽Facebook" focusable="false"
+                  style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);">
+                  <path
+                    d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78"
+                    fill-rule="evenodd"></path>
+                </svg></a>
+              <a href="https://twitter.com/airbnb_tw" target="_blank" rel="noopener noreferrer" class="_1rp52521"
+                aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img"
+                  aria-label="瀏覽Twitter" focusable="false"
+                  style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);">
+                  <path
+                    d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16"
+                    fill-rule="evenodd"></path>
+                </svg></a>
+              <a href="https://instagram.com/airbnb" target="_blank" rel="noopener noreferrer" class="_1rp5252"
+                aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 24 24" role="img"
+                  aria-label="瀏覽Instagram" focusable="false"
+                  style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);">
+                  <path
+                    d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z"
+                    fill-rule="evenodd"></path>
+                </svg></a>
+            </div>
+            <span class="ma1">相關條款</span><br>
+            <span class="ma1">隱私</span><br>
+            <span class="ma1">網站地圖</span>
+          </div>
+  
+  
+        </div>
+  
+        <div class="copy">Copyright c ReEat Inc.All Rights Reserved.</div>
+      </div>
+  
+    </footer>
+  <script>
+    function shakeone() {
+      document.getElementById("p1").style.opacity = "1";
+      document.getElementById("p2").style.opacity = "0";
+      document.getElementById("p3").style.opacity = "0";
+      document.getElementById("p4").style.opacity = "0";
+    }
+
+    function shaketwo() {
+      document.getElementById("p2").style.opacity = "1";
+      document.getElementById("p1").style.opacity = "0";
+      document.getElementById("p3").style.opacity = "0";
+      document.getElementById("p4").style.opacity = "0";
+    }
+
+    function shakethree() {
+      document.getElementById("p3").style.opacity = "1";
+      document.getElementById("p2").style.opacity = "0";
+      document.getElementById("p1").style.opacity = "0";
+      document.getElementById("p4").style.opacity = "0";
+    }
+
+    function shakefour() {
+      document.getElementById("p4").style.opacity = "1";
+      document.getElementById("p2").style.opacity = "0";
+      document.getElementById("p3").style.opacity = "0";
+      document.getElementById("p1").style.opacity = "0";
+    }
+
+    let shake = document.getElementById("shake_one")
+    shake.onclick = shakeone;
+    let shake1 = document.getElementById("shake_two")
+    shake1.onclick = shaketwo;
+    let shake2 = document.getElementById("shake_three")
+    shake2.onclick = shakethree;
+    let shake3 = document.getElementById("shake_four")
+    shake3.onclick = shakefour;
+  </script>
+  <script>
+    function $id(id) {
+      return document.getElementById(id);
+    }
+    let wrap = document.getElementsByClassName("wrap")[0];
+    var curIndex = 0;
+
+    $id("ar2").onclick = function (e) {
+console.log(curIndex);
+$id("ar1").style.color = "black";
+        $id("gr1").style.opacity = "1";
+
+      if (curIndex == 0) { //當道原點時便不再走動
+        $id("ar2").style.color = "#c0c0c0";
+        $id("gr2").style.opacity = "0";
+      } else {
+        curIndex--;
+        wrap.style.left = (-100 * curIndex) + "%";
+        $id("ar2").style.color = "black";
+        $id("gr2").style.opacity = "1";
+        console.log(curIndex);
+        if (curIndex == 0) {
+          $id("ar2").style.color = "#c0c0c0";
+          $id("gr2").style.opacity = "0";
+        }
+      }
+    }
+
+      //讓一開始能還原到固定質黑色&&透明度為1
+    $id("ar1").onclick = function (e) {
+      $id("ar2").style.color = "black";
+        $id("gr2").style.opacity = "1";
+      console.log(curIndex);
+      if (curIndex == 2) {
+        $id("ar1").style.color = "#c0c0c0";
+        $id("gr1").style.opacity = "0";
+      } else {
+
+        curIndex++;
+        wrap.style.left = (-100 * curIndex) + "%";
+        $id("ar1").style.color = "black";
+        $id("gr1").style.opacity = "1";
+        console.log(curIndex);
+        if(curIndex == 2){
+          $id("ar1").style.color = "#c0c0c0";
+        $id("gr1").style.opacity = "0";
+        }
+      }
+     
+    }
+  </script>
+
+<script src="./js/wow.min.js">
+
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./js/wow.js"></script>
+  <script src="./js/hamburger.js"></script>
+</body>
+
+</html>

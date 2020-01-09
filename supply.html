@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>供應餐點</title>
+    <link rel="stylesheet" href="css/supply.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/supply.js"></script>
+  <!-- 導入js方法:<script src="js/supply.js"></script> -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_flex">
+
+        <div class="logo">
+           <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+        </div>
+        <ul class="menu">
+            <li>
+                <div class="explore"> 探索廢食不可</div>
+                <ul class="explore_list">
+                    <li><a href="#">待救美食</a></li>
+                    <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                    <li><a href="#">大廚交流</a></li>
+                </ul>
+
+            </li>
+            <li> <a href="./supply.html">提供餐點</a></li>
+            <li> <a href="./openkitchen.html">開設廚房</a></li>
+            <li><a href="#"> 登入</a></li>
+        </ul>
+        <nav class="nav">
+        <ul class="menu_hide" id="menu_hide">
+            <li>
+                <div class="explore_hide facebook" id="explore_hide"> 探索廢食不可 ⮟</div>
+                <ul class="explore_list_hide" id="explore_list_hide">
+                    <li><a href="#">待救美食</a></li>
+                    <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                    <li><a href="#">大廚交流</a></li>
+                </ul>
+            </li>
+            <li > <a href="./supply.html" class="facebook">提供餐點</a></li>
+            <li> <a href="./openkitchen.html" class="facebook">開設廚房</a></li>
+            <li>
+                    <div class="explore_hide facebook" id="explore_hide_one"> 關於我們 ⮟</div>
+                    <ul class="explore_list_hide explore_one" id="explore_one">
+                        <li><a href="#">創業理念</a></li>
+                        <li><a href="./vision.html">團隊簡介</a></li>
+                        <li><a href="#">常見問題</a></li>
+                    </ul>
+                </li>
+                <li>
+                        <div class="explore_hide facebook" id="explore_hide_two"> 會員專區 ⮟</div>
+                        <ul class="explore_list_hide explore_two" id="explore_two">
+                            <li><a href="./customer.html">食光隧道</a></li>
+                        </ul>
+                    </li>
+            <li><a href="#" class="facebook"> 登入</a></li>
+        </ul>
+    </nav>
+        <div class="hamburger_icom">
+        <button class="hamburger hamburger--spring btn_switch" type="button" id="hamburger">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+    </div>
+    </header>
+    <div class="big_background">
+        <div class="mid_background">
+           <section class="first_head">
+            <div class="head_pic">
+                <div class="black_block"></div>
+               <div class="shift_money"> <div class="money"></div>
+                <span class="bottom">簡單上手</span></div>
+               <div class="shift_people"><div class="people"></div>
+                <span class="bottom">無須額外人力</span></div>
+                <div class="shift_time"><div class="time"></div>
+                <span class="bottom">快速啟用</span></div>
+                <div class="join">
+                    <h2 class="rescue">救食行動Just do it</h2>
+                    <!-- <h3>愛護地球由你而起</h3> -->
+                    <div class="list">
+                    <div class="city">店名</div>
+                    <input type="text" name="store" class="position"><br>
+                      <div class="place">所在縣市</div>
+                      <select name="city" class="city1" placeholder="縣市">
+                        <option value="">台北市</option>
+                        <option value="">新北市</option>
+                        <option value="">桃園市</option>
+                        <option value="">高雄市</option>
+                      </select><br>
+                      <div class="place">聯絡信箱</div>
+                      <input type="text" name="section" class="position" ><br>
+                      <div class="place">電話號碼</div>
+                      <input type="text" name="number" placeholder="店鋪或手機擇一" class="position"><br><br>
+                      <button type="button" class="find">加入我們</button>
+                    </div>
+                  </div>
+        </div>
+    </section>
+    <div class="step">
+        <div class="title_name"><span>運作流程</span></div>
+        <div class="progressbar"><span class="progress" style="width:33.33%"></span></div>
+        <div class="gray"><span>&lt;</span><span>&gt;</span></div>
+     
+    </div>
+    <h2 >加入廢食不可優點</h2>
+    <div class="advantage"> 
+    <dl class="merit_one">
+        <img src="./img/feature1.png" alt="">
+         <dt>開發新客戶</dt>
+         
+         <dd>提供餐點給住在附近的使用者，打開潛在顧客市場，增加額外收入。</dd>
+     </dl>
+     <dl class="merit_two">
+        <img src="./img/feature2.png" alt="">
+         <dt>降低業務成本</dt>
+         
+         <dd>解決食物浪費的問題，將本應丟棄的食物換為收入。</dd>
+     </dl>
+     <dl class="merit_three">
+         <img src="./img/feature3.png" alt="">
+         <dt>改善地球環境</dt>
+         <dd>每拯救一份食物，可減少因生產這些食物所產生的二氧化碳。</dd>
+     </dl>
+    </div>
+    <section class="timming">
+        <h2>利用時機</h2>
+        <!-- <div class="rectangle">進太多的貨</div>
+        <div class="rectangle">快過保存期限</div>
+        <div class="rectangle">想善用剩餘食材</div>
+        <div class="rectangle">天候不佳導致顧客大幅減少</div>
+        <div class="rectangle">顧客突然取消訂位</div>
+        <div class="rectangle">自助餐有剩下</div> -->
+        <ul class="rectangle">
+            <li>快過保存期限</li>
+            <li >進太多的貨</li>
+            <li>想善用剩餘食材</li>
+            <li>季節因素</li>
+            <li>顧客突然取消訂位</li>
+            <li>自助餐有剩下</li>
+        </ul>
+        <div class="bottom_pic"><img src="./img/timing-map-sp.png" alt=""></div>
+    </section>
+    <section class="question">
+        <h1>常見問題</h1>
+        <div class="sidebar" id="js-sidebar-1" data-block="sidebar">
+            <div class="sidebar__item js-accordion--open">
+              <div class="sidebar__title js-accordion--open">
+                <h2 class="uchi">偶爾才會有食物浪費的問題，可以刊登嗎?</h2>
+              </div>
+              <div class="sidebar__content js-accordion--open">
+                <p>沒有問題，並沒有每天都須供餐的規定。您可以再發生食物浪費的時間點在使用本網站。</p>
+                <div class="inner" id="js-sidebar-2" data-block="inner">
+                  <div class="inner__item">
+                    <div class="inner__title">
+                      <h2 class="uchi">加盟費用</h2>
+                    </div>
+                    <div class="inner__content">
+                      <p>無須任何的加盟金便可加入。</p>
+                    </div>
+                  </div>
+                  <div class="inner__item">
+                    <div class="inner__title">
+                      <h2 class="uchi">解約費用</h2>
+                    </div>
+                    <div class="inner__content">
+                      <p>無須任何解約費用或契約綁定。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__item">
+              <div class="sidebar__title">
+                <h2 class="uchi">沒有提供外帶服務的店，也可加入廢食不可嗎?</h2>
+              </div>
+              <div class="sidebar__content">
+                <p>當然沒問題，有許多店家都是第一次，無須擔心。</p>
+              </div>
+            </div>
+            <div class="sidebar__item">
+              <div class="sidebar__title">
+                <h2 class="uchi">供餐的價格是如何決定的呢?</h2>
+              </div>
+              <div class="sidebar__content">
+                <p>菜單價格完全是由您決定的，建議設在50元到200元之間。</p>
+              </div>
+            </div>
+            <div class="sidebar__item">
+                <div class="sidebar__title">
+                  <h2 class="uchi">店家方面需要做什麼準備嗎</h2>
+                </div>
+                <div class="sidebar__content">
+                  <p>請您先預備能連接到廢食不可管理系統的平板或手機。另外，您無法在廢食不可做出預約等動作。</p>
+                </div>
+              </div>
+          </div>
+    </section>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_color">
+               <!-- <img src="./img/logocop.png" alt=""> -->
+               <!-- <p><span class="about">關於我們</span><span class="user">會員專區</span></p> -->
+                
+             <div class="flex_move">
+                <div class="flex_move_one"><span><i> 廢食不可</i></span><br><span> 總公司  〒22777 桃園市中壢區資策會</span><br><span> TEL：072-480-0831</span></div>
+                <div class="flex_move_two"><span> <i> 關於我們</i></span><br><span class="aaa"><a href="vision.html" class="make"> 創業理念</a></span><br><span class="bbb">團隊簡介</span><br><span class="ccc">常見問題</span></div>
+               <!-- <p>運作模式<br><a href="vision.html" class="make"> 創業理念</a><br>團隊簡介<br>常見問題</p> -->
+                  <div class="flex_move_three"><span><i> 會員專區</i></span><br> <span class="eatturnel"><a href="./customer.html" class="eat_turrnel">食光隧道</a></span></div>
+                  <div class="flex_move_four">
+                    <div class="item_picture">
+                    <a href="https://www.facebook.com/AirbnbTaiwan" target="_blank" rel="noopener noreferrer" class="_1rp5252" aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img" aria-label="瀏覽Facebook" focusable="false" style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);"><path d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78" fill-rule="evenodd"></path></svg></a>
+                    <a  href="https://twitter.com/airbnb_tw" target="_blank" rel="noopener noreferrer" class="_1rp52521" aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img" aria-label="瀏覽Twitter" focusable="false" style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);"><path d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16" fill-rule="evenodd"></path></svg></a> 
+                   <a href="https://instagram.com/airbnb" target="_blank" rel="noopener noreferrer" class="_1rp5252" aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 24 24" role="img" aria-label="瀏覽Instagram" focusable="false" style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);"><path d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z" fill-rule="evenodd"></path></svg></a> 
+                </div>
+                    <span >相關條款</span><br>
+                    <span>隱私</span><br>
+                    <span >網站地圖</span>
+                </div>
+                 
+
+            </div>
+          
+            <div class="copy">Copyright c ReEat Inc.All Rights Reserved.</div>
+        </div>  
+       
+  </footer>
+
+  <script src="./js/supply.js"></script>
+</body>
+
+</html>

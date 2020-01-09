@@ -1,0 +1,874 @@
+html:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>供應餐點</title>
+    <link rel="stylesheet" href="css/real_supply.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/supply.js"></script>
+  <!-- 導入js方法:<script src="js/supply.js"></script> -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+       <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+    </div>
+
+    <ul class="menu">
+        <li>
+            <div class="explore"> 探索廢食不可</div>
+            <ul class="explore_list">
+                <li><a href="#">待救美食</a></li>
+                <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+                <li><a href="#">大廚交流</a></li>
+            </ul>
+
+        </li>
+        <li> <a href="./supply.html">提供餐點</a></li>
+        <li> <a href="./openkitchen.html">開設廚房</a></li>
+        <li><a href="#"> 登入</a></li>
+    </ul>
+
+</header>
+    <div class="big_background">
+        <div class="mid_background">
+           <section class="first_head">
+            <div class="head_pic">
+                <div class="black_block"></div>
+            
+                <div class="join">
+                    <h2 class="rescue">提供餐點</h2>
+                    <!-- <h3>愛護地球由你而起</h3> -->
+                    <div class="list">
+                    <div class="city">店名</div>
+                    <input type="text" name="store" class="position"><br>
+                      <div class="city">所在縣市</div>
+                      <select name="city" class="city1" placeholder="縣市">
+                        <option value="">台北市</option>
+                        <option value="">新北市</option>
+                        <option value="">桃園市</option>
+                        <option value="">高雄市</option>
+                      </select><br>
+                      <div class="city">聯絡信箱</div>
+                      <input type="text" name="section" class="position" ><br>
+                      <div class="city">電話號碼</div>
+                      <input type="text" name="number" placeholder="店鋪或手機擇一" class="position"><br><br>
+                     <div class="button_holder"><button type="button" class="find">加入我們</button></div> 
+                    </div>
+                  </div>
+                  <div class="bottom_par">保留每份餐點餘溫 <br> 遞給奮鬥一天後的他/她</div>
+        </div>
+    </section>
+   <section class="second_sec">
+       <h2 class="service">服務流程</h2>
+     <div class="bottm_para">時間</div>
+     <div class="bottm_para_two">聯繫新顧客</div>
+     <div class="bottm_para_three">額外收入</div>
+    <div class="arrow_one">&gt;<span>&gt;</span></div>
+      <div class="arrow_two"><span>&lt;</span>&lt;</div>
+        <div class="inside">當發生食物浪費的危機時，您可以利用廢食不可所提供的平台、按照您所設定的價格、保留時段來上架。<br><br>不僅節省了您的時間，也可以讓您接觸新的客戶。</div>
+         <div class="background">
+          <div class="first_pic">
+            <div class="line_grad"></div>
+         <div class="char_one">
+          <h2>導入優點</h2>
+              <div><span>1. 賺取額外收入</span><span>2. 接觸新顧客</span></div>
+            </div>
+            </div>
+            <div class="second_pic">
+              <div class="line_grad_two"></div>
+            <div class="char_two">
+            <h2>簡單上手</h2>            
+            <div>可在您所期望的日期利用</div>
+        </div> 
+      </div>
+    </div> 
+      
+    <div class="main_pic"></div> 
+
+   </section>
+   <section class="third_sec">
+    
+      <h2>廢食不可的特點</h2>
+      <div class="case">
+       <dl class="case_one">
+          <div class="pic_item pic_one"><img src="./img/secure-payment-3769bcb98be7ba7f40648452bdf7e987.png" alt="" ></div>
+        <div class="case_mid mid_mid">
+          <dt>初期導入費用為0</dt>
+         <dd>包含初期導入費用在內，手續費、營運成本皆為0元。</dd>
+        </div>
+        </dl>
+       <dl class="case_two">
+          <div class="pic_item pic_two"><img src="./img/risk-1.png" alt="" ></div>
+          <div class="case_mid shadow">
+          <dt>現場人員無負擔</dt>
+         <dd>不須繁複的設定，可用電話或LINE便可與客人聯繫。</dd>
+        </div>
+        </dl>
+       <dl class="case_three">
+          <div class="pic_item pic_three"><img src="./img/message.png" alt="" ></div>
+          <div class="case_mid">
+          <dt>最快2日內便可啟用</dt>
+          <dd>從您決定導入本系統那天算起，僅需2天便可啟動本系統。</dd>
+        </div>
+        </dl>
+      </div>
+      <div class="blue_back"></div>
+   </section>
+   <section class="four_sic">
+      <h2>關於廢食不可</h2>
+     <div class="how">
+      <div class="what">
+        <h3>什麼是廢食不可?</h3>
+        <p>廢食不可幫晚歸族發現世界各地的優質飲食和精彩體驗。 餐廳因食客而興，他們為晚歸族或喜歡嘗鮮的人提供溫暖的一餐，讓他們有機會品嘗豐盛的大餐。</p>
+      </div>
+      <div class="what">
+          <h3>什麼是供應餐點?</h3>
+          <p>如果您有因為各種因素所多出的食物，您可以與來自世界各地的食客分享，藉此賺取收入的同時，也能為地球環境做出貢獻。</p>
+          <div><a href="">近一步了解更多利用時機</a></div>
+      </div>
+    </div>
+   </section>
+  <section class="fif_sec">
+     <h2 class="question">常見問題</h2>
+     <div class="sidebar" id="js-sidebar-1" data-block="sidebar">
+        <div class="sidebar__item js-accordion--open">
+          <div class="sidebar__title js-accordion--open">
+            <h2 class="uchi">偶爾才會有食物浪費的問題，可以刊登嗎?</h2>
+          </div>
+          <div class="sidebar__content js-accordion--open">
+            <p>沒有問題，並沒有每天都須供餐的規定。您可以再發生食物浪費的時間點在使用本網站。</p>
+            <div class="inner" id="js-sidebar-2" data-block="inner">
+              <div class="inner__item">
+                <div class="inner__title">
+                  <h2 class="uchi">加盟費用</h2>
+                </div>
+                <div class="inner__content">
+                  <p>無須任何的加盟金便可加入。</p>
+                </div>
+              </div>
+              <div class="inner__item">
+                <div class="inner__title">
+                  <h2 class="uchi">解約費用</h2>
+                </div>
+                <div class="inner__content">
+                  <p>無須任何解約費用或契約綁定。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar__item">
+          <div class="sidebar__title">
+            <h2 class="uchi">沒有提供外帶服務的店，也可加入廢食不可嗎?</h2>
+          </div>
+          <div class="sidebar__content">
+            <p>當然沒問題，有許多店家都是第一次，無須擔心。</p>
+          </div>
+        </div>
+        <div class="sidebar__item">
+          <div class="sidebar__title">
+            <h2 class="uchi">供餐的價格是如何決定的呢?</h2>
+          </div>
+          <div class="sidebar__content">
+            <p>菜單價格完全是由您決定的，建議設在50元到200元之間。</p>
+          </div>
+        </div>
+        <div class="sidebar__item">
+            <div class="sidebar__title">
+              <h2 class="uchi">店家方面需要做什麼準備嗎</h2>
+            </div>
+            <div class="sidebar__content">
+              <p>請您先預備能連接到廢食不可管理系統的平板或手機。另外，您無法在廢食不可做出預約等動作。</p>
+            </div>
+          </div>
+      </div>
+      <div class="bottom_bac"></div>
+</section>
+  
+
+</div>
+</div>
+
+</body>
+
+</html>
+
+
+css:
+@import "./common/realheaderandfooter.css";
+
+
+h1{
+    font-size: 36px !important;
+    line-height: 1.5;
+}
+h2{
+    font-size: 30px !important;
+    line-height: 1.5 !important;
+} 
+ p{
+    font-size: 18px !important;
+    line-height: 2.3 !important;
+}
+h4{
+    color: 	#888888;
+    font-size: 22px;
+    font-style: italic;
+}
+.gift{
+    background-color: #A9A9A9;
+    z-index: 2;
+    opacity: 1;
+}
+
+section.first_head .head_pic{
+ background-image: url('../img/shutterstock_727507747.jpg');
+ width: 100%;
+ background-size: cover;
+ height: 85vh;
+ position: relative;
+ /* filter: brightness(0.7); */
+} 
+section.first_head .head_pic .black_block{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.join {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 20px;
+    width: 320px;
+    /* height: 450px; */
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top:20%;
+    left: 61%;
+}
+
+.city {
+    width:92%;
+     margin: 0 auto;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 0px;
+}
+h2.rescue{
+    width:92%;
+    margin: 0 auto;
+}
+.city1 {
+    padding: 10px 0px;
+    border-radius: .25rem;
+    border: 1px dotted;
+    font-size: 16px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    outline: none;
+    background: none;
+    width:92%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-image: url('../img/arrow-2.png');
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: right 8px center;
+    cursor: pointer;
+}
+
+input.position {
+    border: 1px dotted;
+    padding: 10px 0px;
+    font-size: 16px;
+    width:92%;
+    margin: 0 auto;
+    border-radius: .25rem;
+    box-sizing: border-box;
+}
+
+.join .button_holder{
+    margin: 0 auto;
+    width: 92%;
+    box-sizing: border-box;
+    text-align: right;
+}
+.find {
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: .375rem 20px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-family: "微軟正黑體";
+    transition: all 0.8s;
+    
+}
+.find:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.bottom_par{
+    line-height: 2.2;
+    font-size: 24px;
+    line-height: 2;
+    position: absolute;
+   bottom: 10%;
+   left: 15%;
+   color: white;
+   font-weight: bold;
+}
+
+section.second_sec{
+   padding-top: 10%;   
+   position: relative;
+   /* border: 1px red solid; */
+   background: linear-gradient(319deg, rgba(255, 226, 233, 0.9)2%, rgba(252, 213, 126, 0.8)60%);
+}
+section.second_sec::after{
+  content: "";
+  width: 100%;
+  padding-top: 5%;
+  display: block;
+  background-color: white;
+}
+section.second_sec .first_pic{
+    width: 26%;
+    padding-top: 20%;
+    background-image: url('../img/left.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   position: relative;
+
+}
+.line_grad{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(313deg, rgba(0, 0, 0, 0.9)2%, rgba(204, 206, 201, 0.9)60%); */
+    background: linear-gradient(121deg, rgba(0, 0, 0, 0.9)2%, rgba(204, 206, 201, 0.9)60%);
+    opacity: 0.9;
+}
+.char_one{
+ color: white;
+ position: absolute;
+ bottom: 3%;
+ left: 3%;
+}
+.char_one div span{
+    font-size: 18px;
+}
+.char_one div span:nth-child(2){
+    padding: 0px 15px;
+}
+ .second_pic{
+    width: 26%;
+    padding-top: 20%;
+    background-image: url('../img/right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   position: relative;
+   background-position: center;
+}
+.line_grad_two{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(313deg, rgba(0, 0, 0, 0.9)2%, rgba(204, 206, 201, 0.9)60%);
+    opacity: 0.9;
+}
+.char_two{
+    color: white;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+   }
+ .char_two div{
+       font-size: 18px;
+}
+section.second_sec .service{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    z-index: 2;
+    color: #FFB402;
+}
+ .char_one h2,.char_two h2{
+     margin: 10px 0px;
+}
+section.second_sec .background{
+    width: 100%;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+}
+section.second_sec .inside{
+    position: absolute;
+    top: 27%;
+    z-index: 2;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 23%;
+    left: 32%;
+}
+ section.second_sec .arrow_one{
+  font-size: 60px;
+  position: absolute;
+  top: 0%;
+  left: 71.1%;
+  color: black;
+  opacity: 0.8;
+  z-index: 10;
+  cursor: pointer;
+  vertical-align: middle;
+} 
+section.second_sec .arrow_one:hover span{
+    opacity: 1;
+    animation:moveright 3s linear;
+    animation-iteration-count: 3;
+}
+@keyframes moveright{
+   /* 0%,100%{transform: translateX(0px);} */
+   50%{margin-left: 15px;}
+}
+section.second_sec .arrow_one span{
+  color: rgba(204, 206, 201, 0.9);
+    opacity: 0;
+    font-size: 40px;
+    vertical-align:15%;
+} 
+section.second_sec .arrow_two{
+    font-size: 60px;
+    position: absolute;
+  top:0%;         
+  /* 從右邊開始畫 */
+  right: 71%;
+  color: black;
+  opacity: 0.8;
+  z-index: 10;
+  cursor: pointer;
+  vertical-align: middle;
+/* border: 1px solid red; */
+
+}
+
+section.second_sec .arrow_two span{
+    color: rgba(204, 206, 201, 0.9);
+    opacity: 0;
+    font-size: 40px;
+    vertical-align:15%;
+}
+section.second_sec .arrow_two:hover span{
+    opacity: 1;
+    animation:moveleft 3s linear;
+    animation-iteration-count: 3;
+    
+}
+   /* section.second_sec .arrow_two:hover {
+    animation:moveleft 3s linear;
+    animation-iteration-count: 3;
+}   */
+
+@keyframes moveleft{
+    /* 0%,100%{transform: translateX(0px);} */
+    50%{margin-right: 15px;}
+ }
+section.second_sec .main_pic{
+    width: 62%;
+    height:100% ;
+     position:absolute;
+     /* border: 1px solid red; */
+     top: 0;
+     left: 19%;
+     background-image: url('../img/picture111.png');
+     background-size:cover;
+     background-repeat: no-repeat;
+     /* clip-path: polygon(0% 0%, 100% 0%, 86% 14%, 85% 100%, 15% 100%, 15% 14%); */
+     clip-path: polygon(0% 0%, 100% 0%, 89% 28%, 89% 100%, 10% 100%, 10% 29%);
+
+     background-position: center 40%;
+}
+section.second_sec .bottm_para{
+    position: absolute;
+    bottom: -7%;
+    z-index: 2;
+    left: 33%;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    color: red;
+    /* padding-top: 10px; */
+}
+.bottm_para_two{
+    position: absolute;
+    bottom: -7%;
+    z-index: 2;
+    left: 46%;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    color: #60B6B5;
+} 
+.bottm_para_three{
+    position: absolute;
+    bottom: -7%;
+    z-index: 2;
+    left: 62.5%;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    color: #FFB402;
+    padding-top: 10px;
+}
+.case{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+dt{
+    font-size: 22px;
+    color: #888888;
+    padding-left: 20px;
+    line-height: 2;
+   
+ }
+ dd{
+     /* width: 100%; */
+     text-align: left;
+     line-height: 2;
+     display: block;
+     font-size: 18px;
+     /* border: 1px solid red; */
+     margin: 0 ;
+     padding-left: 20px;
+     line-height: 2;
+     padding-bottom: 10px;
+ }
+ dl.case_one,dl.case_two,dl.case_three{
+    display: inline-block;
+   /* border: 1px solid red; */
+   margin: 0;
+   background-color: white;
+   border-radius: 5px;
+   /* overflow: hidden; */
+   /* box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4); */
+    width: 25%;
+    position: relative;
+    z-index:3;
+    margin-top: 13%;
+    box-shadow:5px 5px 5px 0 rgba(0,0,0,.1);
+ }
+ .pic_item{
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 0;
+    width:100%;
+    /* border: 1px solid red; */
+    display: block;
+    text-align: center;
+ }
+.pic_item img{
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+section.third_sec .case .case_mid{
+    padding: 10px 15px 20px 15px;
+    background-color: white;
+   z-index: 3;
+}
+.case_one::after{
+    content: "";
+    transform: skewY(-4deg);
+    display: block;
+    background: inherit;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,.1);
+    width: 100%;
+    padding-top: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: right bottom;
+    /* height: 40px; */
+    border-radius: 0 0 12px 12px;
+}
+
+.case_three::after{
+    content: "";
+    transform: skewY(4deg);
+    display: block;
+    background: inherit;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,.1);
+    width: 100%;
+    padding-top: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: left bottom;
+    /* height: 40px; */
+    border-radius: 0 0 12px 12px;
+}
+section.third_sec{
+    margin-top: 10%;
+    padding-top: 2%;
+    /* border: 1px solid red; */
+    /* background-color: #8EC3D4;
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0% 100%); */
+    position: relative;
+}
+section.third_sec .blue_back{
+    /* border: 1px solid red; */
+     background-color: #8EC3D4;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     clip-path: polygon(0 0, 100% 0, 100% 52%, 0% 100%);
+     top: 0;
+     left: 0;
+
+}
+.third_sec h2{
+    position: absolute;
+    top: 2%;
+    z-index: 2;
+    color: white;
+    left: 2%;
+}
+section.four_sic{
+    margin-top: 7%;
+    padding-top: 2%;
+}
+section.four_sic h2{
+ text-align: center;
+}
+section.four_sic .what{
+    width: 40%;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+section.four_sic .how{
+    display: flex;
+    justify-content: space-around;
+}
+.what div a{
+    text-decoration: none;
+    color:rgba(121,200,189) ;
+    display: inline-block;
+    transition: all 0.8s;
+}
+.what div a:hover{
+    transform: scale(1.1,1.1);
+}
+.what h3{
+    font-size: 22px;
+}
+
+.barebone, .sidebar {
+    max-width: 464px;
+    width: 86%;
+    margin: 20px auto;
+  }
+  
+  .barebone__title {
+    cursor: pointer;
+    
+  }
+  .barebone__content {
+    height: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    transition: height linear .1s;
+  }
+  
+  .sidebar {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: white;
+  }
+  .sidebar__title {
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .sidebar__content {
+    height: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    transition: height linear .1s;
+  }
+  .sidebar__content.js-accordion--open {
+    height: auto;
+  }
+  .sidebar__item {
+    border: 1px solid #ddd;
+    border-top: 0;
+  }
+  .sidebar__item:first-child {
+    border-top: 1px solid #ddd;
+  }
+  .sidebar__title {
+    position: relative;
+    padding:5px 20px;
+    transition: all ease-out .25s;
+    font-weight: bold;
+    padding-right: 60px;
+  }
+  .sidebar__title::after, .sidebar__title:after {
+    position: absolute;
+    content: '+';
+    right: 14px;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    background-color: white;
+    color: #666;
+    border-radius: 100%;
+    line-height: 23px;
+  }
+  .sidebar__title.js-accordion--open {
+    background-color: #eee;
+  }
+  .sidebar__title.js-accordion--open::after, .sidebar__title.js-accordion--open:after {
+    content: '–';
+    line-height: 20px;
+  }
+  .sidebar__content {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: height ease-out .25s;
+  }
+  
+  .inner {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .inner__title {
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .inner__content {
+    height: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    transition: height linear .1s;
+  }
+  .inner__content.js-accordion--open {
+    height: auto;
+  }
+  .inner__item {
+    border: 1px solid #ddd;
+    border-top: 0;
+  }
+  .inner__item:first-child {
+    border-top: 1px solid #ddd;
+  }
+  .inner__title {
+    position: relative;
+    padding: 0px 20px;
+    transition: all ease-out .25s;
+    font-weight: bold;
+    padding-right: 60px;
+  }
+  .inner__title::after, .inner__title:after {
+    position: absolute;
+    content: '+';
+    right: 14px;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    background-color: white;
+    color: #666;
+    border-radius: 100%;
+    line-height: 23px;
+  }
+  .inner__title.js-accordion--open {
+    background-color: #eee;
+  }
+  .inner__title.js-accordion--open::after, .inner__title.js-accordion--open:after {
+    content: '–';
+    line-height: 20px;
+  }
+  .inner__content {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: height ease-out .25s;
+  }
+  
+  .sidebar p, .inner p {
+    margin-bottom: 20px;
+    color: #777;
+    line-height: 20px;
+  }
+  .sidebar p:first-child, .inner p:first-child {
+    margin-top: 20px;
+  }
+  .sidebar p strong, .inner p strong {
+    font-weight: bold;
+    color: #444;
+  }
+ section.fif_sec{
+     margin-top: 7%;
+     position: relative;
+ }
+ section.fif_sec .bottom_bac{
+    width: 100%;
+    border: 1px solid red;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#DEDFDA ;
+    clip-path: polygon(0 15%, 100% 0, 100% 86%, 0% 100%);
+
+ }
+ section.fif_sec .question{
+    position: absolute;
+    top: 2%;
+    z-index: 2;
+    
+    /* left: 2%; */
+ }
+ .sidebar{
+     position: relative;
+     z-index: 3;
+    top:80px;
+ }

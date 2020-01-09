@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>廢食不可</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <!-- <link rel="stylesheet" href="./js/indsex.js"> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script>
+    function showAns() {
+      window.alert("尚未上架,敬請期待")
+    }
+  </script>
+
+  <script src="./js/wow.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+  <script type="text/javascript" src="./js/slick.js"></script>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header_flex">
+
+      <div class="logo">
+        <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+      </div>
+      <ul class="menu">
+        <li>
+          <div class="explore"> 探索廢食不可</div>
+          <ul class="explore_list">
+            <li><a href="#">待救美食</a></li>
+            <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+            <li><a href="./cook_social.html">大廚交流</a></li>
+          </ul>
+
+        </li>
+        <li> <a href="./real_supply.html">提供餐點</a></li>
+        <li> <a href="./openkitchen.html">開設廚房</a></li>
+        <li><a href="#"> 登入</a></li>
+      </ul>
+      <nav class="nav">
+        <ul class="menu_hide" id="menu_hide">
+          <li>
+            <div class="explore_hide facebook" id="explore_hide"> 探索廢食不可 V</div>
+            <ul class="explore_list_hide" id="explore_list_hide">
+              <li><a href="#">待救美食</a></li>
+              <li><a href="./home_restaurant.html">家庭餐廳</a></li>
+              <li><a href="./cook_social.html">大廚交流</a></li>
+            </ul>
+          </li>
+          <li> <a href="./real_supply.html" class="facebook">提供餐點</a></li>
+          <li> <a href="./openkitchen.html" class="facebook">開設廚房</a></li>
+          <li>
+            <div class="explore_hide facebook" id="explore_hide_one"> 關於我們 V</div>
+            <ul class="explore_list_hide explore_one" id="explore_one">
+              <li><a href="./vision.html">創業理念</a></li>
+              <li><a href="#">團隊簡介</a></li>
+              <li><a href="#">常見問題</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="explore_hide facebook" id="explore_hide_two"> 會員專區 V</div>
+            <ul class="explore_list_hide explore_two" id="explore_two">
+              <li><a href="#">食光隧道</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="facebook"> 登入</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger_icom">
+        <button class="hamburger hamburger--spring btn_switch" type="button" id="hamburger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- <div class="block"></div> -->
+
+
+  <div class="big_background">
+    <div class="mid_background">
+      <section class="background">
+        <form class="search">
+          <h2 class="action">搶救美食即刻行動</h2>
+          <div class="list">
+            <div class="city">城市</div>
+            <select name="city" class="city1" placeholder="縣市">
+              <option value="">台北市</option>
+              <option value="">新北市</option>
+              <option value="">桃園市</option>
+              <option value="">高雄市</option>
+            </select>
+            <br>
+            <div class="city">地點</div>
+            <input type="text" name="section" class="position" placeholder=" 輸入車站"><br><br>
+
+            <button type="button" class="find" onClick="showAns()">尋找美食</button>
+          </div>
+        </form>
+        <!-- <div class="welcome">Welcome to Reeat</div> -->
+        <div class="sense">
+          <div>剩食? 盛食!</div>
+          <div>讓一天的結束帶點屬於你的sense ♪</div>
+        </div>
+        <div class="black"></div>
+      </section>
+      <section>
+        <form class="search_hide">
+          <h2 class="action">搶救美食即刻行動</h2>
+          <div class="list">
+            <div class="city">城市</div>
+            <select name="city" class="city1" placeholder="縣市">
+              <option value="">台北市</option>
+              <option value="">新北市</option>
+              <option value="">桃園市</option>
+              <option value="">高雄市</option>
+            </select>
+            <br>
+            <div class="city">地點</div>
+            <input type="text" name="section" class="position" placeholder=" 輸入車站"><br><br>
+
+            <div class="inputholder"><button type="button" class="find1" onClick="showAns()">尋找美食</button></div>
+          </div>
+        </form>
+      </section>
+      <section class="rescue_me">
+        <h2 class="rescue">待救美食</h2>
+        <div class="contani_city">
+          <select name="city" class="city2" placeholder="縣市" id="cittt">
+            <option value="tab1">台北市</option>
+            <option value="tab2">新北市</option>
+            <option value="tab3">桃園市</option>
+            <option value="tab4">高雄市</option>
+          </select>
+        </div>
+        <div class="resce">
+          <div class="aside_background">
+          </div>
+
+          <div class="tab_container">
+
+            <div class="tab_list_block">
+              <ul class="tab_list" id="tab_go">
+                <!-- <p class="taipei_city">台北市</p> -->
+                <li><a href="#" data-target="tab1" class="tab -on tai">台北市</a></li>
+                <li><a href="#" data-target="tab2" class="tab">新北市</a></li>
+                <li><a href="#" data-target="tab3" class="tab">桃園市</a></li>
+                <li><a href="#" data-target="tab4" class="tab">高雄市</a></li>
+              </ul>
+
+              <div class="bottom_line"></div>
+            </div>
+            <div class="tab_contents">
+              <div class="tab tab1 -on " id="tab11">
+
+                <div class=" flex_two">
+
+                  <a href="./dishes.html">
+                    <dl class="first_block f_one "
+                      id="fadeup">
+                      <div class="pic_item">
+                        <img src="./img/20190415084351_92.jpg" alt="">
+                      </div>  
+
+                      <dt>絲白德鰻</dt>
+                      <dd>
+                        <p>日式料亭</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $180</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_two "
+                      id="fade1">
+                      <div class="pic_item">
+                        <img src="./img/281848-1.jpg" alt="">
+                      </div>
+
+                      <dt>歹就補</dt>
+                      <dd>
+                        <p>藥膳</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $70</p>
+                      </dd>
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_three " id="fade2">
+
+                      <div class="pic_item">
+                        <img src="./img/48102878527_a2e39f1027_h.jpg" alt="">
+                      </div>
+
+                      <dt>奧維斯樂芙</dt>
+                      <dd>
+                        <p>西式甜點</p>
+                        <p>距離大安站步行7分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $50</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_four "
+                      id="fade3">
+                      <div class="pic_item">
+                        <img src="./img/20190415084351_92.jpg" alt="">
+                      </div>
+
+                      <dt>絲白德鰻</dt>
+                      <dd>
+                        <p>日式料亭</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $180</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                </div>
+              </div>
+              <div class="tab tab2" id="tab2">
+                <div class=" flex_two">
+                  <a href="./dishes.html">
+                    <dl class="first_block f_five "
+                      id="fade4">
+                      <div class="pic_item">
+                        <img src="./img/shutterstock_680320558.jpg" alt="">
+                      </div>
+
+                      <dt>金玉相思飯</dt>
+                      <dd>
+                        <p>日式料亭</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $180</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_six "
+                      id="fade5">
+                      <div class="pic_item">
+                        <img src="./img/images (1).jpeg" alt="">
+                      </div>
+
+                      <dt>懷石晶饌</dt>
+                      <dd>
+                        <p>藥膳</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $70</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_seven " 
+                      id="fade6">
+
+                      <div class="pic_item">
+                        <img src="./img/1555894128-c72bb619504acb4657283e43d61d251c.jpg" alt="">
+                      </div>
+
+                      <dt>英式早午茶</dt>
+                      <dd>
+                        <p>西式甜點</p>
+                        <p>距離大安站步行7分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $50</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                </div>
+              </div>
+              <div class="tab tab3" id="tab3">
+                <div class=" flex_two">
+                  <a href="./dishes.html">
+                    <dl class="first_block f_eight "
+                      id="fade7">
+                      <div class="pic_item">
+                        <img src="./img/caption-1-1.jpg" alt="">
+                      </div>
+
+                      <dt>生魚沙西米</dt>
+                      <dd>
+                        <p>日式料亭</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $180</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_nine "
+                      id="fade8">
+                      <div class="pic_item">
+                        <img src="./img/nailau.png" alt="">
+                      </div>
+
+                      <dt>奶香奶烙</dt>
+                      <dd>
+                        <p>藥膳</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $70</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_ten "  id="fade9">
+
+                      <div class="pic_item">
+                        <img src="./img/TOD-Tomahawk-cut-1400-min.jpg" alt="">
+                      </div>
+
+                      <dt>沙朗黑牛</dt>
+                      <dd>
+                        <p>西式甜點</p>
+                        <p>距離大安站步行7分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $50</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                </div>
+              </div>
+              <div class="tab tab4" id="tab4">
+                <div class=" flex_two">
+                  <a href="./dishes.html">
+                    <dl class="first_block f_ele " id="fade10">
+                      <div class="pic_item">
+                        <img src="./img/20190415084351_92.jpg" alt="">
+                      </div>
+
+                      <dt>絲白德鰻</dt>
+                      <dd>
+                        <p>日式料亭</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $180</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_twe " id="fade11">
+                      <div class="pic_item">
+                        <img src="./img/281848-1.jpg" alt="">
+                      </div>
+
+                      <dt>歹就補</dt>
+                      <dd>
+                        <p>藥膳</p>
+                        <p>距離台北車站步行5分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $70</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                  <a href="./dishes.html">
+                    <dl class="first_block f_tir "  id="fade12">
+
+                      <div class="pic_item">
+                        <img src="./img/48102878527_a2e39f1027_h.jpg" alt="">
+                      </div>
+
+                      <dt>奧維斯樂芙</dt>
+                      <dd>
+                        <p>西式甜點</p>
+                        <p>距離大安站步行7分鐘</p>
+                        <p>取餐時段 : 11:50~16:00</p>
+                        <p>價格 : $50</p>
+                      </dd>
+
+                    </dl>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="progress"><span class="progress_contant"></span></span>
+
+        <a href="" class="moremore">
+          <p class="more">顯示更多餐點</p>
+        </a>
+      </section>
+
+      <section class="home_rest">
+        <div class="t_block"><img src="./img/agni.jpg" alt=""></div>
+        <div class="bright_one"><img src="./img/weare.PNG" alt=""></div>
+        <div class="circle_block">
+          <h2>大廚交流</h2>
+          <p>獨樂樂不如眾樂樂，和你分享的快樂勝過獨自擁有，一起共享這份感動吧!</p>
+        </div>
+        <a href="./cook_social.html" class="go"> <button type="submit" class="learn">前往了解</button></a>
+      </section>
+      <!-- <section class="cook">
+        <div class="ttwo_block"><img src="./img/joys-kitchen-62.jpg" alt=""></div>
+        <div class="circletwo_block">
+          <h2>大廚交流</h2>
+          <p>獨樂樂不如眾樂樂，和你分享的快樂勝過獨自擁有，一起共享這份感動吧!</p>
+        </div>
+        <div class="bright_two"><img src="./img/news109566.jpg" alt=""></div>
+        <button type="submit" class="run">GO</button>
+      </section> -->
+      <section class="ccook">
+        
+        <div class="coosocial">
+           <h2>家庭餐廳</h2>
+          </div>
+          <div class="ttcook"> 
+          <div class="littlebackground">
+            <div class="truebackground"></div>
+           <div class="content_move">
+            <h3>體驗非日常的日常生活</h3>
+            <p>受夠了老是一個人吃飯的生活了嗎?不妨試著轉換心情，來到家庭餐廳認識些新朋友吧!</p>
+           <button type="button" class="learn"><a href="./home_restaurant.html">前往了解</a></button>
+          </div>
+          </div>
+         <div class="slick">
+            <div class="movepicture">
+               <a href="" class="blue_circle"><div class="bblue">
+                  <div class="pptc">
+                    <div class="plus"></div>
+                    <div class="pic_cover"><img src="./img/201602031156496611.jpg" alt=""></div>
+                </div>
+              </div>
+              </a>
+
+             <div class="main_containt">     
+                <div class="peoname">姿姿</div>
+                  <div class="cookfood"><span class="eats">分子料理</span><span>溫馨小家</span></div>
+                  <div class="paret">姿姿是一位數學系的教授，他認為料理就像方程式，他歡迎大家來到他的廚房，感受料理間的化學變化。</div>
+                </div> 
+                </div>
+            <div class="movepicture">
+              <a href="" class="blue_circle" class="ama"> <div class="bblue">
+              <div class="pptc">
+                    <div class="plus"></div>
+                    <div class="pic_cover"><img src="./img/859781e1-8e41-49d1-bc48-a3e3fcdfb873.png" alt=""></div>
+                </div>
+              </div>
+              </a>
+               <div  class="main_containt">
+                <div class="peoname">董董</div>
+                <div class="cookfood"><span class="eats">義式料理</span><span>童趣家庭</span></div>
+                  <div class="paret">台北市居民兼美食達人董董認為烹飪能讓人心情愉快。她喜歡小丸子、哆啦a夢等卡通，歡迎各位來到她的主題廚房。</div>
+                </div>
+                </div>
+            <div class="movepicture">
+               <a href="" class="blue_circle"><div class="bblue">
+                  <div class="pptc">
+                  <div class="plus"></div>
+                    <div class="pic_cover"><img src="./img/d1759187.jpg" alt=""></div>
+                </div>
+              </div>
+              </a>
+                <div  class="main_containt">
+                  <div class="peoname">巧巧</div>
+                  <div class="cookfood"><span class="eats">古早味料理</span><span>懷舊家庭</span></div>
+                  <div class="paret">國貿系出身的巧巧喜歡吃巧克力，只溶你口不黏你手。</div>
+                </div>
+                </div>
+         </div>
+        </div>
+      </section>
+      <section class="satic-area">
+         <div class="bottom_title"> <h2 class="eatline">食光隧道</h2></div>
+        <div class="dynamic-area1"></div>
+        <div class="dynamic-area2"></div>
+
+        <div class="satic-areaInside">
+          <!-- <h2 class="turrnel">食光隧道</h2> -->
+          <div class="taiwan_flex">
+            <h2 class="turrnel">食光隧道</h2>
+            <form class="contani_city cc">
+              <select name="city" class="city2" placeholder="縣市" id="citty">
+                <!-- <option value="">台北市</option> -->
+                <option value="city0">請選擇</option>
+                <option value="city2">新北市</option>
+                <option value="city3">桃園市</option>
+                <option value="city4">高雄市</option>
+              </select>
+            </form>
+            <div class="small_taiwan">
+              <img src="./img/taiwan.svg" alt="">
+              <div class="icon2"  id="icon2"><img src="./img/iconn.svg" alt=""></div>
+              <div class="tayouinfo cctity" style="color:black">桃園市</div>
+              <div class="taipei_map">
+                   <a href="" >
+                    <img src="./img/tauoyan.svg" alt="" id="taipei_map">
+                  </a>
+                </div>
+                <div class="icon1"  id="icon1"><img src="./img/iconn.svg" alt=""></div>
+                <div class="newTaipei cctity">新北市</div>
+                <div class="Newtaipei_map">
+                  <a href=""> 
+                  <img src="./img/newtaipei.svg" alt="" id="Newtaipei_map">
+                </a> 
+                </div>
+                <!-- <div class="ttapei">台北市</div>
+                <div class="ttapei_map">
+                    <img src="./img/taipei.svg" alt="">
+                </div> -->
+                <div class="icon3" id="icon3"><img src="./img/iconn.svg" alt="" ></div>
+                <div class="kayoyan cctity">高雄市</div>
+                <div class="kauoshaan_map">
+                    <a href="">  
+                  <img src="./img/kauoyan.svg" alt="" id="kauoshaan_map">
+                  </a>
+                </div>
+            </div>
+            <div class="taiwan_love" id="ttlove">
+              <p class="time">又回到最初的起點,記憶中你青澀的臉，我們終於來到這一天。
+                桌墊下的照片，無數回憶的連結。時光流轉,還記得當時老闆娘的倩影、老闆熱情的招呼、或是令人眼睛為之一亮的美食嗎?快來時光隧道刻下屬於你的足跡吧!</p>
+              <div class="no">
+                <p>廢食不可</p>
+              </div>
+            </div>
+            <div class="taiwan_love tayoyan_love" id="tayoyan_love">
+                     <div class="hide_image">
+                        <img src="./img/tauoyan.svg" alt="">
+                      </div>
+                   <div class="hide_time"><p class="time">桃園美食天下第一!快來吃快來玩!現在桃園有各種活動，心動不如馬上行動!</p></div> 
+                <div class="noo">
+                   <div class="tay">
+                     <img src="./img/58769540_291772788366348_8787861468304504345_n.jpg" alt="">
+                   
+                   </div>
+                  <span>王玉明</span>
+                </div>
+              </div>
+              <div class="taiwan_love taipei_love" id="taipei_love">
+                  <div class="hide_image">
+                      <img src="./img/newtaipei.svg" alt="">
+                    </div>
+                   <div class="hide_time"><p class="time">新北美食聖地超讚的!快來吃快來玩!歡迎大家西朋引伴憶起遊玩。</p></div> 
+                  <div class="noo">
+                      <div class="tay">
+                        <img src="./img/image003_S.jpg" alt="">
+                       
+                      </div>
+                       <span>王小花</span>
+                   </div>
+                </div>
+                <div class="taiwan_love kuoshan_love "  id="kuoshan_love">
+                    <div class="hide_image">
+                        <img src="./img/kauoyan.svg" alt="">
+                      </div>
+                   <div class="hide_time"><p class="time">高雄美食聖地超讚的!快來吃快來玩!高雄美食聖地超讚的!快來吃快來玩!高雄美食聖地超讚的!快來吃快來玩!</p></div> 
+                    <div class="noo">
+                        <div class="tay">
+                          <img src="./img/image005_S.jpg" alt="">
+                        </div>
+                        <span>王曉明</span>
+                     </div>
+                  </div>
+            <div>
+
+            </div>
+          </div>
+          <!-- <div class="cloud"> -->
+          <!-- <img src="./img/bg-nuage-1.png" alt=""> -->
+
+          <!-- </div> -->
+        </div>
+      </section>
+      <!-- <section class="mode">
+        <h2 class="exite">運作結構</h2>
+        <img src="./img/shop.png" alt="">
+        <img src="./img/logo.png" alt="">
+        <img src="./img/ppeople.png" alt="">
+         <p class="earn">額外收入</p>
+         <p class="one_menu">豐盛一餐</p>
+         <p class="brige">廢食不可扮演店家和消費者間的橋樑，<br> 讓每分食物都能找到歸宿。</p>
+         <p class="insist">每一份餐點，<br>都包含老闆的用心與堅持。</p>
+        </section> -->
+    </div>
+  </div>
+  <footer>
+      <div class="footer_color">
+        <!-- <img src="./img/logocop.png" alt=""> -->
+        <!-- <p><span class="about">關於我們</span><span class="user">會員專區</span></p> -->
+  
+        <div class="flex_move">
+          <div class="flex_move_one"><span><i> 廢食不可</i></span><br><span> 總公司 〒22777 桃園市中壢區資策會</span><br><span>
+              TEL：072-480-0831</span></div>
+          <div class="flex_move_two"><span> <i> 關於我們</i></span><br><span class="aaa"><a href="./vision.html" class="make">
+                創業理念</a></span><br><span class="bbb">團隊簡介</span><br><span class="ccc">常見問題</span></div>
+          <!-- <p>運作模式<br><a href="vision.html" class="make"> 創業理念</a><br>團隊簡介<br>常見問題</p> -->
+          <div class="flex_move_three"><span><i> 會員專區</i></span><br> <span class="eatturnel"><a href="#"
+                class="eat_turrnel">食光隧道</a></span></div>
+          <div class="flex_move_four">
+            <div class="item_picture">
+              <a href="https://www.facebook.com/AirbnbTaiwan" target="_blank" rel="noopener noreferrer" class="_1rp5252"
+                aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img"
+                  aria-label="瀏覽Facebook" focusable="false"
+                  style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);">
+                  <path
+                    d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78"
+                    fill-rule="evenodd"></path>
+                </svg></a>
+              <a href="https://twitter.com/airbnb_tw" target="_blank" rel="noopener noreferrer" class="_1rp52521"
+                aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 32 32" role="img"
+                  aria-label="瀏覽Twitter" focusable="false"
+                  style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);">
+                  <path
+                    d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16"
+                    fill-rule="evenodd"></path>
+                </svg></a>
+              <a href="https://instagram.com/airbnb" target="_blank" rel="noopener noreferrer" class="_1rp5252"
+                aria-busy="false" itemprop="sameAs" style="padding: 0px; margin: 0px;"><svg viewBox="0 0 24 24" role="img"
+                  aria-label="瀏覽Instagram" focusable="false"
+                  style="height: 18px; width: 18px; display: block; fill: rgb(255, 255, 255);">
+                  <path
+                    d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z"
+                    fill-rule="evenodd"></path>
+                </svg></a>
+            </div>
+            <span class="ma1">相關條款</span><br>
+            <span class="ma1">隱私</span><br>
+            <span class="ma1">網站地圖</span>
+          </div>
+  
+  
+        </div>
+  
+        <div class="copy">Copyright c ReEat Inc.All Rights Reserved.</div>
+      </div>
+  
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+
+  <script>
+    //class="wow 效果" date-wow-duration="2s" date-wow-delay="0.5s"
+
+    var wow = new WOW({
+      boxClass: 'wow', // 要套用WOW.js縮需要的動畫class(預設是wow)
+      animateClass: 'animated', // 要"動起來"的動畫(預設是animated, 因此如果你有其他動畫library要使用也可以在這裡調整)
+      offset: 0, // 距離顯示多遠開始顯示動畫 (預設是0, 因此捲動到顯示時才出現動畫)
+      mobile: true, // 手機上是否要套用動畫 (預設是true)
+      live: true, // 非同步產生的內容是否也要套用 (預設是true, 非常適合搭配SPA)
+      callback: function (box) {
+        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        // 當每個要開始時, 呼叫這裡面的內容, 參數是要開始進行動畫特效的element DOM
+      },
+
+    });
+    
+    wow.init();
+  </script>
+  <script>
+    $(function () {
+      $("a.tab").on("click", function (e) {
+        e.preventDefault();
+
+        /* 將頁籤列表移除所有 -on，再將指定的加上 -on */
+        $(this).closest("ul").find("a.tab").removeClass("-on");
+        $(this).addClass("-on");
+
+        /* 找到對應的頁籤內容，加上 -on 來顯示 */
+        $("div.tab").removeClass("-on");
+        $("div.tab." + $(this).attr("data-target")).addClass("-on");
+      });
+    });
+  </script>
+  <script>
+    function $id(id) {
+      return document.getElementById(id);
+    }
+
+    function getP(e) {
+      let get = e.target;
+      for (let j = 0; j < showP.length; j++) {
+        showP[j].classList.remove("tai");
+      }
+      get.classList.add("tai");
+    }
+
+    let showP = document.getElementsByClassName("tab");
+    for (let i = 0; i < showP.length; i++) {
+      showP[i].onclick = getP;
+    }
+
+    //mouseover時換圖、taipei_map、Newtaipei_map、kauoshaan_map、ttlove、tayoyan_love、taipei_love、kuoshan_love
+    $id("taipei_map").onmouseover=function(){
+      $id("taipei_map").style.filter ="brightness(0.4)";
+      $id("tayoyan_love").style.display="block";
+    
+      $id("icon2").style.opacity="1";
+      $id("icon2").style.animationName="op";
+      $id("icon1").style.animationName="op";
+      $id("icon3").style.animationName="op";
+     
+
+      // $id("tayoyan_love").style.transform=" translateY(0%)";
+      $id("taipei_love").style.display="none";
+      $id("kuoshan_love").style.display="none";   
+      $id("ttlove").style.display="none";  
+      $id("Newtaipei_map").style.filter ="brightness(1)";
+      $id("kauoshaan_map").style.filter ="brightness(1)";
+      
+      $id("icon1").style.opacity="0"
+      $id("icon3").style.opacity="0"
+
+
+    }
+    $id("taipei_map").onmouseout=function(){
+      $id("tayoyan_love").style.display="none";
+      // $id("tayoyan_love").style.transform=" translateY(200%)";
+      $id("taipei_map").style.filter ="brightness(1)";
+      $id("ttlove").style.display="block";  
+
+      $id("icon2").style.opacity="0";
+      $id("icon2").style.animationName="opacity1";
+      $id("icon1").style.animationName="opacity2";
+      $id("icon3").style.animationName="opacity3";
+    }
+
+    $id("Newtaipei_map").onmouseover=function  city7(){
+      $id("Newtaipei_map").style.filter ="brightness(0.4)";
+      $id("taipei_love").style.display="block";
+      $id("taipei_love").style.transform=" translateY(0%)";
+
+      $id("icon1").style.opacity="1";
+      $id("icon2").style.animationName="op";
+      $id("icon1").style.animationName="op";
+      $id("icon3").style.animationName="op";
+
+      $id("kuoshan_love").style.display="none";
+      $id("tayoyan_love").style.display="none";   
+      $id("ttlove").style.display="none";     
+      $id("taipei_map").style.filter ="brightness(1)";
+      $id("kauoshaan_map").style.filter ="brightness(1)";
+
+      $id("icon2").style.opacity="0";
+      $id("icon3").style.opacity="0" ;
+    }
+
+    $id("Newtaipei_map").onmouseout=function(){
+      $id("taipei_love").style.display="none";
+      $id("taipei_love").style.transform=" translateY(200%)";
+      $id("Newtaipei_map").style.filter ="brightness(1)";
+      $id("ttlove").style.display="block";  
+
+      $id("icon1").style.opacity="0";
+      $id("icon2").style.animationName="opacity1";
+      $id("icon1").style.animationName="opacity2";
+      $id("icon3").style.animationName="opacity3";
+    }
+
+
+    $id("kauoshaan_map").onmouseover=function  city8(){
+      $id("kauoshaan_map").style.filter ="brightness(0.4)";
+      $id("kuoshan_love").style.display="block";
+      $id("kuoshan_love").style.transform=" translateY(0%)";
+
+      $id("icon3").style.opacity="1" ;
+      $id("icon2").style.animationName="op";
+      $id("icon1").style.animationName="op";
+      $id("icon3").style.animationName="op";
+
+      $id("taipei_love").style.display="none";
+      $id("tayoyan_love").style.display="none";   
+      $id("ttlove").style.display="none";  
+      $id("taipei_map").style.filter ="brightness(1)";
+      $id("Newtaipei_map").style.filter ="brightness(1)"; 
+      
+      $id("icon2").style.opacity="0";
+      $id("icon1").style.opacity="0" ; 
+    }
+   
+    $id("kauoshaan_map").onmouseout=function(){
+      $id("kuoshan_love").style.display="none";
+      $id("kuoshan_love").style.transform=" translateY(200%)";
+      $id("kauoshaan_map").style.filter ="brightness(1)";
+      $id("ttlove").style.display="block";  
+
+      $id("icon3").style.opacity="0" ;
+      $id("icon2").style.animationName="opacity1";
+      $id("icon1").style.animationName="opacity2";
+      $id("icon3").style.animationName="opacity3";
+
+    }
+
+    $id("citty").onchange=function(){
+      if(citty.value=="city3"){
+        
+        $id("taipei_map").style.filter ="brightness(0.4)";
+      $id("tayoyan_love").style.display="block";
+    
+      $id("icon2").style.opacity="1"
+    
+      // $id("tayoyan_love").style.transform=" translateY(0%)";
+      $id("taipei_love").style.display="none";
+      $id("kuoshan_love").style.display="none";   
+      $id("ttlove").style.display="none";  
+      $id("Newtaipei_map").style.filter ="brightness(1)";
+      $id("kauoshaan_map").style.filter ="brightness(1)";
+      
+      $id("icon1").style.opacity="0"
+      $id("icon3").style.opacity="0"
+    
+      }else if(citty.value=="city2"){
+        $id("Newtaipei_map").style.filter ="brightness(0.4)";
+      $id("taipei_love").style.display="block";
+      $id("taipei_love").style.transform=" translateY(0%)";
+
+      $id("icon1").style.opacity="1";
+
+
+      $id("kuoshan_love").style.display="none";
+      $id("tayoyan_love").style.display="none";   
+      $id("ttlove").style.display="none";     
+      $id("taipei_map").style.filter ="brightness(1)";
+      $id("kauoshaan_map").style.filter ="brightness(1)";
+
+      $id("icon2").style.opacity="0";
+      $id("icon3").style.opacity="0" ; 
+      }else if(citty.value=="city4"){
+        $id("kauoshaan_map").style.filter ="brightness(0.4)";
+      $id("kuoshan_love").style.display="block";
+      $id("kuoshan_love").style.transform=" translateY(0%)";
+
+      $id("icon3").style.opacity="1" ;
+    
+
+      $id("taipei_love").style.display="none";
+      $id("tayoyan_love").style.display="none";   
+      $id("ttlove").style.display="none";  
+      $id("taipei_map").style.filter ="brightness(1)";
+      $id("Newtaipei_map").style.filter ="brightness(1)"; 
+      
+      $id("icon2").style.opacity="0";
+      $id("icon1").style.opacity="0" ;  
+      }
+    }
+
+    //最上面內籤頁
+    $id("cittt").onchange=function(){
+      if(cittt.value=="tab1"){
+        $id("tab11").style.display="block";
+        $id("tab2").style.display="none";
+        $id("tab3").style.display="none";
+        $id("tab4").style.display="none";
+      }else if(cittt.value=="tab2"){
+        $id("tab11").style.display="none";
+        $id("tab2").style.display="block";
+        $id("tab3").style.display="none";
+        $id("tab4").style.display="none";
+      }else if(cittt.value=="tab3"){
+        $id("tab11").style.display="none";
+        $id("tab2").style.display="none";
+        $id("tab3").style.display="block";
+        $id("tab4").style.display="none";
+      }else if(cittt.value=="tab4"){
+        $id("tab11").style.display="none";
+        $id("tab2").style.display="none";
+        $id("tab3").style.display="none";
+        $id("tab4").style.display="block";
+      }
+    }
+    
+    
+
+
+
+
+
+    window.onload = aaa;
+
+    function aaa() {
+      function isMobile() {
+
+        try {
+          document.createEvent("TouchEvent");
+          return true;
+        } catch (e) {
+          return false;
+        }
+
+      }
+      if (isMobile()) {
+        document.getElementById("fadeup").classList.remove("fadeInLeft");
+        document.getElementById("fadeup").classList.remove("fadeInLeft");
+        //  document.getElementById("fadeup").classList.remove("wow");
+        document.getElementById("fade1").classList.remove("fadeInLeft");
+        document.getElementById("fade2").classList.remove("fadeInLeft");
+        document.getElementById("fade3").classList.remove("fadeInLeft");
+        document.getElementById("fade4").classList.remove("fadeInLeft");
+        document.getElementById("fade5").classList.remove("fadeInLeft");
+        document.getElementById("fade6").classList.remove("fadeInLeft");
+        document.getElementById("fade7").classList.remove("fadeInLeft");
+        document.getElementById("fade8").classList.remove("fadeInLeft");
+        document.getElementById("fade9").classList.remove("fadeInLeft");
+        document.getElementById("fade10").classList.remove("fadeInLeft");
+        document.getElementById("fade11").classList.remove("fadeInLeft");
+        document.getElementById("fade12").classList.remove("fadeInLeft");
+      }
+
+
+      window.addEventListener("resize", function () {
+        if (window.innerWidth < 950) {
+          document.getElementById("fadeup").classList.remove("fadeInLeft");
+          //  document.getElementById("fadeup").classList.remove("wow");
+          document.getElementById("fade1").classList.remove("fadeInLeft");
+          document.getElementById("fade2").classList.remove("fadeInLeft");
+          document.getElementById("fade3").classList.remove("fadeInLeft");
+          document.getElementById("fade4").classList.remove("fadeInLeft");
+          document.getElementById("fade5").classList.remove("fadeInLeft");
+          document.getElementById("fade6").classList.remove("fadeInLeft");
+          document.getElementById("fade7").classList.remove("fadeInLeft");
+          document.getElementById("fade8").classList.remove("fadeInLeft");
+          document.getElementById("fade9").classList.remove("fadeInLeft");
+          document.getElementById("fade10").classList.remove("fadeInLeft");
+          document.getElementById("fade11").classList.remove("fadeInLeft");
+          document.getElementById("fade12").classList.remove("fadeInLeft");
+        } else {
+          document.getElementById("fadeup").classList.add("fadeInLeft");
+          document.getElementById("fade1").classList.add("fadeInLeft");
+          document.getElementById("fade2").classList.add("fadeInLeft");
+          document.getElementById("fade3").classList.add("fadeInLeft");
+          document.getElementById("fade4").classList.add("fadeInLeft");
+          document.getElementById("fade5").classList.add("fadeInLeft");
+          document.getElementById("fade6").classList.add("fadeInLeft");
+          document.getElementById("fade7").classList.add("fadeInLeft");
+          document.getElementById("fade8").classList.add("fadeInLeft");
+          document.getElementById("fade9").classList.add("fadeInLeft");
+          document.getElementById("fade10").classList.add("fadeInLeft");
+          document.getElementById("fade11").classList.add("fadeInLeft");
+          document.getElementById("fade12").classList.add("fadeInLeft");
+        }
+      })
+    }
+  </script>
+ <script src="./js/slick.min.js"></script>
+<!-- 坐輪播途 -->
+<script>
+$('.slick').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrow:false,
+  dots:true,
+  autoplaySpeed: 7000,
+});
+
+</script>
+
+
+
+
+  <script src="./js/hamburger.js"></script>
+  <!-- <script type="text/javascript" src="./js/slick.js"></script>
+  <script src="./js/slick.min.js"></script> -->
+
+</body>
+
+</html>
